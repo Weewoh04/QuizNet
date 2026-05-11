@@ -2406,6 +2406,215 @@ const expansionQuizzes: Quiz[] = [
       { slug: "the-thoughtful-one", title: "The Thoughtful One", description: "People may see you as observant, careful, and quietly insightful.", shareSummary: "People probably think I'm The Thoughtful One." },
       { slug: "the-capable-one", title: "The Capable One", description: "People may see you as organized, competent, and naturally in control.", shareSummary: "People probably think I'm The Capable One." }
     ]
+  }),
+  makeQuickQuiz({
+    slug: "whats-your-true-home-aesthetic",
+    title: "What's Your True Home Aesthetic?",
+    description: "Choose colors, textures, and room details to reveal the home aesthetic that fits you best.",
+    category: "home",
+    tags: ["home", "decor", "aesthetic"],
+    publishedAt: "2026-05-03",
+    trending: true,
+    questions: [
+      { text: "Your dream home should feel...", answers: [
+        { text: "Clean and peaceful", result: "soft-minimal" },
+        { text: "Warm and layered", result: "cozy-collected" },
+        { text: "Fresh and timeless", result: "classic-airy" },
+        { text: "Creative and personal", result: "artful-eclectic" }
+      ] },
+      { text: "Pick a material.", answers: [
+        { text: "Light wood", result: "soft-minimal" },
+        { text: "Woven texture", result: "cozy-collected" },
+        { text: "Linen", result: "classic-airy" },
+        { text: "Vintage brass", result: "artful-eclectic" }
+      ] },
+      { text: "Your favorite kind of room is...", answers: [
+        { text: "Uncluttered", result: "soft-minimal" },
+        { text: "Lived-in", result: "cozy-collected" },
+        { text: "Bright", result: "classic-airy" },
+        { text: "Full of stories", result: "artful-eclectic" }
+      ] }
+    ],
+    results: [
+      { slug: "soft-minimal", title: "Soft Minimal", description: "Your true home aesthetic is calm, edited, and warm without feeling empty.", shareSummary: "My true home aesthetic is Soft Minimal." },
+      { slug: "cozy-collected", title: "Cozy Collected", description: "Your true home aesthetic is layered, welcoming, and full of pieces that feel personal.", shareSummary: "My true home aesthetic is Cozy Collected." },
+      { slug: "classic-airy", title: "Classic Airy", description: "Your true home aesthetic is fresh, timeless, and quietly polished.", shareSummary: "My true home aesthetic is Classic Airy." },
+      { slug: "artful-eclectic", title: "Artful Eclectic", description: "Your true home aesthetic is expressive, creative, and built around character.", shareSummary: "My true home aesthetic is Artful Eclectic." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "which-kitchen-style-matches-your-personality",
+    title: "Which Kitchen Style Matches Your Personality?",
+    description: "Find the kitchen style that fits the way you cook, host, and live.",
+    category: "home",
+    tags: ["kitchen", "home", "decor"],
+    publishedAt: "2026-05-02",
+    questions: [
+      { text: "Your ideal kitchen priority is...", answers: [
+        { text: "Everything has a place", result: "modern-organized" },
+        { text: "Warmth and gathering", result: "farmhouse-warm" },
+        { text: "Light and ease", result: "coastal-bright" },
+        { text: "A little drama", result: "bold-bistro" }
+      ] },
+      { text: "Pick a kitchen detail.", answers: [
+        { text: "Flat-front cabinets", result: "modern-organized" },
+        { text: "Open shelves", result: "farmhouse-warm" },
+        { text: "White tile", result: "coastal-bright" },
+        { text: "Statement lighting", result: "bold-bistro" }
+      ] },
+      { text: "Your cooking style is...", answers: [
+        { text: "Efficient", result: "modern-organized" },
+        { text: "Generous", result: "farmhouse-warm" },
+        { text: "Simple and fresh", result: "coastal-bright" },
+        { text: "Creative", result: "bold-bistro" }
+      ] }
+    ],
+    results: [
+      { slug: "modern-organized", title: "Modern Organized Kitchen", description: "You like clean surfaces, smart storage, and a kitchen that works hard quietly.", shareSummary: "My kitchen style is Modern Organized." },
+      { slug: "farmhouse-warm", title: "Warm Farmhouse Kitchen", description: "You want a kitchen that feels generous, lived-in, and made for gathering.", shareSummary: "My kitchen style is Warm Farmhouse." },
+      { slug: "coastal-bright", title: "Coastal Bright Kitchen", description: "You are drawn to fresh light, easy materials, and an open breezy feeling.", shareSummary: "My kitchen style is Coastal Bright." },
+      { slug: "bold-bistro", title: "Bold Bistro Kitchen", description: "You like a kitchen with mood, personality, and a little restaurant energy.", shareSummary: "My kitchen style is Bold Bistro." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-cozy-are-you",
+    title: "What Kind of Cozy Are You?",
+    description: "Find your personal version of cozy, from soft and quiet to warm and social.",
+    category: "lifestyle",
+    tags: ["cozy", "personality", "lifestyle"],
+    publishedAt: "2026-05-01",
+    trending: true,
+    questions: [
+      { text: "Cozy means...", answers: [
+        { text: "Silence and blankets", result: "quiet-cozy" },
+        { text: "Good food and people", result: "gathered-cozy" },
+        { text: "Candles and books", result: "romantic-cozy" },
+        { text: "Sweats and no plans", result: "easy-cozy" }
+      ] },
+      { text: "Pick a cozy setting.", answers: [
+        { text: "A reading chair", result: "quiet-cozy" },
+        { text: "A full kitchen table", result: "gathered-cozy" },
+        { text: "A rainy window", result: "romantic-cozy" },
+        { text: "The couch", result: "easy-cozy" }
+      ] },
+      { text: "Your cozy night needs...", answers: [
+        { text: "Low noise", result: "quiet-cozy" },
+        { text: "Something homemade", result: "gathered-cozy" },
+        { text: "Atmosphere", result: "romantic-cozy" },
+        { text: "Zero effort", result: "easy-cozy" }
+      ] }
+    ],
+    results: [
+      { slug: "quiet-cozy", title: "Quiet Cozy", description: "Your cozy is soft, silent, and deeply restorative.", shareSummary: "I'm Quiet Cozy." },
+      { slug: "gathered-cozy", title: "Gathered Cozy", description: "Your cozy comes from warmth, food, and being near the right people.", shareSummary: "I'm Gathered Cozy." },
+      { slug: "romantic-cozy", title: "Romantic Cozy", description: "Your cozy is candlelit, thoughtful, and full of atmosphere.", shareSummary: "I'm Romantic Cozy." },
+      { slug: "easy-cozy", title: "Easy Cozy", description: "Your cozy is uncomplicated, comfortable, and proudly low-maintenance.", shareSummary: "I'm Easy Cozy." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-does-your-dream-living-room-say-about-you",
+    title: "What Does Your Dream Living Room Say About You?",
+    description: "Build a dream living room and reveal what it says about your personality.",
+    category: "home",
+    tags: ["living room", "home", "personality"],
+    publishedAt: "2026-04-30",
+    questions: [
+      { text: "Your dream sofa is...", answers: [
+        { text: "Deep and soft", result: "comfort-seeker" },
+        { text: "Tailored and neutral", result: "calm-curator" },
+        { text: "Colorful or unique", result: "creative-host" },
+        { text: "Big enough for everyone", result: "connection-maker" }
+      ] },
+      { text: "The room needs more...", answers: [
+        { text: "Texture", result: "comfort-seeker" },
+        { text: "Balance", result: "calm-curator" },
+        { text: "Art", result: "creative-host" },
+        { text: "Seating", result: "connection-maker" }
+      ] },
+      { text: "Your living room is mainly for...", answers: [
+        { text: "Resting", result: "comfort-seeker" },
+        { text: "Feeling peaceful", result: "calm-curator" },
+        { text: "Self-expression", result: "creative-host" },
+        { text: "Gathering", result: "connection-maker" }
+      ] }
+    ],
+    results: [
+      { slug: "comfort-seeker", title: "Comfort Seeker", description: "Your dream living room says you value softness, rest, and feeling held by your space.", shareSummary: "My dream living room says I'm a Comfort Seeker." },
+      { slug: "calm-curator", title: "Calm Curator", description: "Your dream living room says you crave balance, beauty, and visual quiet.", shareSummary: "My dream living room says I'm a Calm Curator." },
+      { slug: "creative-host", title: "Creative Host", description: "Your dream living room says you want personality, color, and conversation starters.", shareSummary: "My dream living room says I'm a Creative Host." },
+      { slug: "connection-maker", title: "Connection Maker", description: "Your dream living room says home is where people gather and feel included.", shareSummary: "My dream living room says I'm a Connection Maker." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "which-small-luxury-fits-your-personality",
+    title: "Which Small Luxury Fits Your Personality?",
+    description: "Find the everyday little luxury that matches your taste and mood.",
+    category: "lifestyle",
+    type: "recommendation",
+    tags: ["small luxury", "lifestyle", "personality"],
+    publishedAt: "2026-04-29",
+    trending: true,
+    questions: [
+      { text: "A small luxury should feel...", answers: [
+        { text: "Soft", result: "linen-pajamas" },
+        { text: "Beautiful", result: "fresh-flowers" },
+        { text: "Useful", result: "good-notebook" },
+        { text: "Indulgent", result: "fancy-coffee" }
+      ] },
+      { text: "Pick a treat moment.", answers: [
+        { text: "Fresh sheets", result: "linen-pajamas" },
+        { text: "A vase on the table", result: "fresh-flowers" },
+        { text: "A quiet planning hour", result: "good-notebook" },
+        { text: "A slow morning drink", result: "fancy-coffee" }
+      ] },
+      { text: "Your personality appreciates...", answers: [
+        { text: "Comfort", result: "linen-pajamas" },
+        { text: "Beauty", result: "fresh-flowers" },
+        { text: "Intention", result: "good-notebook" },
+        { text: "Ritual", result: "fancy-coffee" }
+      ] }
+    ],
+    results: [
+      { slug: "linen-pajamas", title: "Linen Pajamas", description: "Your small luxury is comfort you can actually feel at the end of the day.", shareSummary: "My small luxury is Linen Pajamas." },
+      { slug: "fresh-flowers", title: "Fresh Flowers", description: "Your small luxury is beauty that changes the whole mood of a room.", shareSummary: "My small luxury is Fresh Flowers." },
+      { slug: "good-notebook", title: "A Really Good Notebook", description: "Your small luxury is useful, thoughtful, and quietly satisfying.", shareSummary: "My small luxury is A Really Good Notebook." },
+      { slug: "fancy-coffee", title: "Fancy Coffee", description: "Your small luxury is a ritual that makes an ordinary day feel a little special.", shareSummary: "My small luxury is Fancy Coffee." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-type-of-weekend-home-would-you-love",
+    title: "What Type of Weekend Home Would You Love?",
+    description: "Find the weekend home style that matches your ideal escape.",
+    category: "home",
+    type: "recommendation",
+    tags: ["home", "weekend", "travel"],
+    publishedAt: "2026-04-28",
+    questions: [
+      { text: "Your weekend escape needs...", answers: [
+        { text: "Water views", result: "lake-cottage" },
+        { text: "Trees and quiet", result: "woodland-cabin" },
+        { text: "Walkable charm", result: "townhouse-retreat" },
+        { text: "Open sunshine", result: "desert-casita" }
+      ] },
+      { text: "Pick a weekend activity.", answers: [
+        { text: "Sitting on a dock", result: "lake-cottage" },
+        { text: "Reading by a fire", result: "woodland-cabin" },
+        { text: "Walking to coffee", result: "townhouse-retreat" },
+        { text: "Watching the sunset", result: "desert-casita" }
+      ] },
+      { text: "The home should feel...", answers: [
+        { text: "Easy and breezy", result: "lake-cottage" },
+        { text: "Tucked away", result: "woodland-cabin" },
+        { text: "Lively but cozy", result: "townhouse-retreat" },
+        { text: "Warm and minimal", result: "desert-casita" }
+      ] }
+    ],
+    results: [
+      { slug: "lake-cottage", title: "Lake Cottage", description: "You would love a relaxed weekend home with water, light, and slow mornings.", shareSummary: "My weekend home would be a Lake Cottage." },
+      { slug: "woodland-cabin", title: "Woodland Cabin", description: "You would love a quiet, tucked-away home where the whole point is unplugging.", shareSummary: "My weekend home would be a Woodland Cabin." },
+      { slug: "townhouse-retreat", title: "Townhouse Retreat", description: "You would love a charming weekend spot near cafes, shops, and easy wandering.", shareSummary: "My weekend home would be a Townhouse Retreat." },
+      { slug: "desert-casita", title: "Desert Casita", description: "You would love a warm, simple escape with sunshine, texture, and open skies.", shareSummary: "My weekend home would be a Desert Casita." }
+    ]
   })
 ];
 
