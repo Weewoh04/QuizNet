@@ -2979,6 +2979,180 @@ const expansionQuizzes: Quiz[] = [
       { slug: "soft-romance", title: "Soft Romance", description: "Your comfort movie match is gentle, heartfelt, and just sentimental enough.", shareSummary: "My comfort movie energy is Soft Romance." },
       { slug: "gentle-adventure", title: "Gentle Adventure", description: "Your comfort movie match has movement, charm, and enough adventure to feel refreshed.", shareSummary: "My comfort movie energy is Gentle Adventure." }
     ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-friend-are-you",
+    title: "What Kind of Friend Are You?",
+    description: "Find the friendship energy you naturally bring to the people closest to you.",
+    category: "relationships",
+    tags: ["friends", "relationships", "personality"],
+    publishedAt: "2026-05-11",
+    trending: true,
+    questions: [
+      { text: "Your friends usually count on you for...", answers: [
+        { text: "Honest advice", result: "truth-teller" },
+        { text: "Emotional safety", result: "safe-place" },
+        { text: "Fun plans", result: "joy-bringer" },
+        { text: "Practical help", result: "steady-supporter" }
+      ] },
+      { text: "In a group chat, you are most likely to...", answers: [
+        { text: "Say what needs saying", result: "truth-teller" },
+        { text: "Check how everyone is doing", result: "safe-place" },
+        { text: "Send the funny thing", result: "joy-bringer" },
+        { text: "Organize the details", result: "steady-supporter" }
+      ] },
+      { text: "Your friendship superpower is...", answers: [
+        { text: "Clarity", result: "truth-teller" },
+        { text: "Care", result: "safe-place" },
+        { text: "Energy", result: "joy-bringer" },
+        { text: "Reliability", result: "steady-supporter" }
+      ] }
+    ],
+    results: [
+      { slug: "truth-teller", title: "Truth Teller Friend", description: "You are the friend who says the real thing with care and helps people see clearly.", shareSummary: "I'm a Truth Teller Friend." },
+      { slug: "safe-place", title: "Safe Place Friend", description: "You make people feel accepted, heard, and emotionally protected.", shareSummary: "I'm a Safe Place Friend." },
+      { slug: "joy-bringer", title: "Joy Bringer Friend", description: "You add lightness, laughter, and momentum when everyone needs it most.", shareSummary: "I'm a Joy Bringer Friend." },
+      { slug: "steady-supporter", title: "Steady Supporter Friend", description: "You show love by being dependable, thoughtful, and ready to help.", shareSummary: "I'm a Steady Supporter Friend." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "whats-your-communication-style",
+    title: "What's Your Communication Style?",
+    description: "Find how you naturally express yourself, solve tension, and connect with others.",
+    category: "relationships",
+    tags: ["communication", "relationships", "personality"],
+    publishedAt: "2026-05-10",
+    trending: true,
+    questions: [
+      { text: "In a tough conversation, you prefer to...", answers: [
+        { text: "Be direct", result: "clear-direct" },
+        { text: "Choose words carefully", result: "thoughtful-soft" },
+        { text: "Ask questions first", result: "curious-listener" },
+        { text: "Take time before responding", result: "reflective-processor" }
+      ] },
+      { text: "People understand you best when you...", answers: [
+        { text: "Name the point clearly", result: "clear-direct" },
+        { text: "Add emotional context", result: "thoughtful-soft" },
+        { text: "Let them explain too", result: "curious-listener" },
+        { text: "Have time to gather your thoughts", result: "reflective-processor" }
+      ] },
+      { text: "Your communication strength is...", answers: [
+        { text: "Honesty", result: "clear-direct" },
+        { text: "Kindness", result: "thoughtful-soft" },
+        { text: "Understanding", result: "curious-listener" },
+        { text: "Depth", result: "reflective-processor" }
+      ] }
+    ],
+    results: [
+      { slug: "clear-direct", title: "Clear and Direct", description: "You communicate best when you can say the truth plainly and move toward resolution.", shareSummary: "My communication style is Clear and Direct." },
+      { slug: "thoughtful-soft", title: "Thoughtful and Soft", description: "You care about tone, timing, and making sure honesty still feels kind.", shareSummary: "My communication style is Thoughtful and Soft." },
+      { slug: "curious-listener", title: "Curious Listener", description: "You communicate by making space, asking good questions, and trying to understand first.", shareSummary: "My communication style is Curious Listener." },
+      { slug: "reflective-processor", title: "Reflective Processor", description: "You need time to sort what you mean, but your words carry real thought when they arrive.", shareSummary: "My communication style is Reflective Processor." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "are-you-emotionally-open-or-emotionally-mysterious",
+    title: "Are You Emotionally Open or Emotionally Mysterious?",
+    description: "Find how much of your inner world people can read at first glance.",
+    category: "relationships",
+    tags: ["emotions", "relationships", "personality"],
+    publishedAt: "2026-05-09",
+    trending: true,
+    questions: [
+      { text: "When something affects you, people usually...", answers: [
+        { text: "Know right away", result: "emotionally-open" },
+        { text: "Can tell if they know you well", result: "selectively-open" },
+        { text: "Have to ask", result: "emotionally-mysterious" },
+        { text: "See the practical version first", result: "guarded-softie" }
+      ] },
+      { text: "Sharing feelings feels...", answers: [
+        { text: "Natural", result: "emotionally-open" },
+        { text: "Good with the right person", result: "selectively-open" },
+        { text: "Very private", result: "emotionally-mysterious" },
+        { text: "Easier after you understand them", result: "guarded-softie" }
+      ] },
+      { text: "Your emotional style is closest to...", answers: [
+        { text: "Open book", result: "emotionally-open" },
+        { text: "Trusted circle", result: "selectively-open" },
+        { text: "Locked journal", result: "emotionally-mysterious" },
+        { text: "Soft under armor", result: "guarded-softie" }
+      ] }
+    ],
+    results: [
+      { slug: "emotionally-open", title: "Emotionally Open", description: "You let people see what matters, and your honesty can make connection easier.", shareSummary: "I'm Emotionally Open." },
+      { slug: "selectively-open", title: "Selectively Open", description: "You share deeply, but only when the person and timing feel right.", shareSummary: "I'm Selectively Open." },
+      { slug: "emotionally-mysterious", title: "Emotionally Mysterious", description: "You keep your inner world private, which can make people curious about what you really feel.", shareSummary: "I'm Emotionally Mysterious." },
+      { slug: "guarded-softie", title: "Guarded Softie", description: "You may seem composed, but there is a tender layer underneath that not everyone gets to see.", shareSummary: "I'm a Guarded Softie." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-type-of-relationship-energy-do-you-give",
+    title: "What Type of Relationship Energy Do You Give?",
+    description: "Find the vibe you bring into close relationships, from steady support to playful spark.",
+    category: "relationships",
+    tags: ["relationships", "energy", "personality"],
+    publishedAt: "2026-05-08",
+    questions: [
+      { text: "In close relationships, you naturally bring...", answers: [
+        { text: "Consistency", result: "steady-love" },
+        { text: "Warmth", result: "soft-love" },
+        { text: "Excitement", result: "spark-love" },
+        { text: "Depth", result: "deep-love" }
+      ] },
+      { text: "Your ideal connection feels...", answers: [
+        { text: "Secure", result: "steady-love" },
+        { text: "Tender", result: "soft-love" },
+        { text: "Alive", result: "spark-love" },
+        { text: "Meaningful", result: "deep-love" }
+      ] },
+      { text: "You show care by...", answers: [
+        { text: "Showing up", result: "steady-love" },
+        { text: "Being gentle", result: "soft-love" },
+        { text: "Keeping things fun", result: "spark-love" },
+        { text: "Knowing the real person", result: "deep-love" }
+      ] }
+    ],
+    results: [
+      { slug: "steady-love", title: "Steady Love Energy", description: "You give reliable, safe, consistent energy that helps relationships feel grounded.", shareSummary: "I give Steady Love Energy." },
+      { slug: "soft-love", title: "Soft Love Energy", description: "You give tender, caring energy that makes people feel emotionally held.", shareSummary: "I give Soft Love Energy." },
+      { slug: "spark-love", title: "Spark Love Energy", description: "You give playful, lively energy that keeps relationships feeling fresh.", shareSummary: "I give Spark Love Energy." },
+      { slug: "deep-love", title: "Deep Love Energy", description: "You give thoughtful, intense, meaningful energy that makes connection feel real.", shareSummary: "I give Deep Love Energy." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "whats-your-green-flag-personality-trait",
+    title: "What's Your Green Flag Personality Trait?",
+    description: "Find the quietly healthy trait people may appreciate most about you.",
+    category: "relationships",
+    tags: ["green flag", "relationships", "personality"],
+    publishedAt: "2026-05-07",
+    trending: true,
+    questions: [
+      { text: "In relationships, you are proud that you...", answers: [
+        { text: "Own your mistakes", result: "accountable" },
+        { text: "Listen without making it about you", result: "emotionally-present" },
+        { text: "Respect people's space", result: "respectful-boundaries" },
+        { text: "Celebrate other people's wins", result: "secure-supporter" }
+      ] },
+      { text: "Your healthiest habit is...", answers: [
+        { text: "Apologizing well", result: "accountable" },
+        { text: "Being fully there", result: "emotionally-present" },
+        { text: "Not pushing", result: "respectful-boundaries" },
+        { text: "Not competing", result: "secure-supporter" }
+      ] },
+      { text: "People likely feel safe with you because you...", answers: [
+        { text: "Take responsibility", result: "accountable" },
+        { text: "Pay attention", result: "emotionally-present" },
+        { text: "Let them be themselves", result: "respectful-boundaries" },
+        { text: "Want good things for them", result: "secure-supporter" }
+      ] }
+    ],
+    results: [
+      { slug: "accountable", title: "Accountable", description: "Your green flag is that you can own your part and grow from it.", shareSummary: "My green flag personality trait is Accountable." },
+      { slug: "emotionally-present", title: "Emotionally Present", description: "Your green flag is that people feel truly heard and not rushed with you.", shareSummary: "My green flag personality trait is Emotionally Present." },
+      { slug: "respectful-boundaries", title: "Respectful of Boundaries", description: "Your green flag is that you understand closeness should still leave room to breathe.", shareSummary: "My green flag personality trait is Respectful of Boundaries." },
+      { slug: "secure-supporter", title: "Secure Supporter", description: "Your green flag is that you can cheer for people without needing to be centered.", shareSummary: "My green flag personality trait is Secure Supporter." }
+    ]
   })
 ];
 
