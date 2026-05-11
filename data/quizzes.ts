@@ -1719,6 +1719,415 @@ const expansionQuizzes: Quiz[] = [
       { text: "What do bees make?", correct: "Honey", wrong: ["Maple syrup", "Olive oil", "Vinegar"] },
       { text: "Which is usually made from milk?", correct: "Cheese", wrong: ["Tofu", "Jam", "Bread flour"] }
     ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-boundary-setter-are-you",
+    title: "What Kind of Boundary Setter Are You?",
+    description: "Find the way you naturally protect your time, energy, and peace.",
+    category: "relationships",
+    tags: ["relationships", "boundaries", "personality"],
+    publishedAt: "2026-03-24",
+    trending: true,
+    questions: [
+      { text: "When you need space, you usually...", answers: [
+        { text: "Say it directly", result: "clear-communicator" },
+        { text: "Create quiet distance", result: "quiet-protector" },
+        { text: "Explain the why", result: "thoughtful-explainer" },
+        { text: "Need practice saying no", result: "learning-setter" }
+      ] },
+      { text: "Your easiest boundary is around...", answers: [
+        { text: "Schedule", result: "clear-communicator" },
+        { text: "Alone time", result: "quiet-protector" },
+        { text: "Emotional honesty", result: "thoughtful-explainer" },
+        { text: "Last-minute requests", result: "learning-setter" }
+      ] },
+      { text: "You feel respected when people...", answers: [
+        { text: "Listen the first time", result: "clear-communicator" },
+        { text: "Give you room", result: "quiet-protector" },
+        { text: "Understand context", result: "thoughtful-explainer" },
+        { text: "Do not push", result: "learning-setter" }
+      ] }
+    ],
+    results: [
+      { slug: "clear-communicator", title: "Clear Communicator", description: "You protect your peace through direct, steady honesty.", shareSummary: "My boundary style is Clear Communicator." },
+      { slug: "quiet-protector", title: "Quiet Protector", description: "You preserve energy by stepping back and choosing your access carefully.", shareSummary: "My boundary style is Quiet Protector." },
+      { slug: "thoughtful-explainer", title: "Thoughtful Explainer", description: "You set boundaries best when you can name the reason with care.", shareSummary: "My boundary style is Thoughtful Explainer." },
+      { slug: "learning-setter", title: "Learning Setter", description: "You are practicing the brave skill of saying what you actually need.", shareSummary: "My boundary style is Learning Setter." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-is-your-hidden-strength",
+    title: "What Is Your Hidden Strength?",
+    description: "A quick personality quiz to reveal the quiet strength people may miss at first.",
+    category: "personality",
+    tags: ["personality", "strengths", "self discovery"],
+    publishedAt: "2026-03-23",
+    trending: true,
+    questions: [
+      { text: "People come to you when they need...", answers: [
+        { text: "Perspective", result: "wise-observer" },
+        { text: "Encouragement", result: "steady-believer" },
+        { text: "A plan", result: "quiet-strategist" },
+        { text: "Calm", result: "grounding-presence" }
+      ] },
+      { text: "Your best contribution is often...", answers: [
+        { text: "Noticing patterns", result: "wise-observer" },
+        { text: "Seeing potential", result: "steady-believer" },
+        { text: "Solving quietly", result: "quiet-strategist" },
+        { text: "Lowering the stress", result: "grounding-presence" }
+      ] },
+      { text: "You are proudest when you...", answers: [
+        { text: "Understand something deeply", result: "wise-observer" },
+        { text: "Help someone keep going", result: "steady-believer" },
+        { text: "Make the next step easier", result: "quiet-strategist" },
+        { text: "Bring peace to a hard moment", result: "grounding-presence" }
+      ] }
+    ],
+    results: [
+      { slug: "wise-observer", title: "Wise Observer", description: "You see what is happening beneath the surface.", shareSummary: "My hidden strength is Wise Observer." },
+      { slug: "steady-believer", title: "Steady Believer", description: "You help people remember they are capable.", shareSummary: "My hidden strength is Steady Believer." },
+      { slug: "quiet-strategist", title: "Quiet Strategist", description: "You make life easier by seeing the practical path forward.", shareSummary: "My hidden strength is Quiet Strategist." },
+      { slug: "grounding-presence", title: "Grounding Presence", description: "You bring steadiness when things feel loud or uncertain.", shareSummary: "My hidden strength is Grounding Presence." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-weeknight-are-you",
+    title: "What Kind of Weeknight Are You?",
+    description: "Find your after-work or after-school evening personality.",
+    category: "lifestyle",
+    tags: ["weeknight", "routine", "personality"],
+    publishedAt: "2026-03-22",
+    questions: [
+      { text: "After a long day, you want...", answers: [
+        { text: "Quiet comfort", result: "cozy-night" },
+        { text: "A productive reset", result: "reset-night" },
+        { text: "Something fun", result: "spark-night" },
+        { text: "No decisions", result: "easy-night" }
+      ] },
+      { text: "Pick a weeknight detail.", answers: [
+        { text: "Soft lighting", result: "cozy-night" },
+        { text: "A clean kitchen", result: "reset-night" },
+        { text: "A quick plan out", result: "spark-night" },
+        { text: "Leftovers", result: "easy-night" }
+      ] },
+      { text: "By bedtime, you want to feel...", answers: [
+        { text: "Soothed", result: "cozy-night" },
+        { text: "Prepared", result: "reset-night" },
+        { text: "Refreshed", result: "spark-night" },
+        { text: "Unbothered", result: "easy-night" }
+      ] }
+    ],
+    results: [
+      { slug: "cozy-night", title: "Cozy Weeknight", description: "You need softness, low lighting, and a slower landing.", shareSummary: "I'm a Cozy Weeknight." },
+      { slug: "reset-night", title: "Reset Weeknight", description: "A short tidy or prep session helps tomorrow feel easier.", shareSummary: "I'm a Reset Weeknight." },
+      { slug: "spark-night", title: "Spark Weeknight", description: "You need a small dose of novelty before the day closes.", shareSummary: "I'm a Spark Weeknight." },
+      { slug: "easy-night", title: "Easy Weeknight", description: "Tonight works best with fewer choices and gentle expectations.", shareSummary: "I'm an Easy Weeknight." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-cozy-drink-are-you",
+    title: "What Kind of Cozy Drink Are You?",
+    description: "Pick a few comfort cues and find your cozy drink personality.",
+    category: "food",
+    tags: ["food", "drinks", "cozy"],
+    publishedAt: "2026-03-21",
+    questions: [
+      { text: "Your cozy mood is...", answers: [
+        { text: "Classic", result: "hot-cocoa" },
+        { text: "Gentle", result: "chamomile-tea" },
+        { text: "Rich", result: "chai-latte" },
+        { text: "Simple", result: "warm-cider" }
+      ] },
+      { text: "Pick a scent.", answers: [
+        { text: "Chocolate", result: "hot-cocoa" },
+        { text: "Honey", result: "chamomile-tea" },
+        { text: "Spice", result: "chai-latte" },
+        { text: "Apple", result: "warm-cider" }
+      ] },
+      { text: "A perfect evening needs...", answers: [
+        { text: "A blanket", result: "hot-cocoa" },
+        { text: "Quiet", result: "chamomile-tea" },
+        { text: "A little warmth", result: "chai-latte" },
+        { text: "Something familiar", result: "warm-cider" }
+      ] }
+    ],
+    results: [
+      { slug: "hot-cocoa", title: "Hot Cocoa", description: "You are nostalgic, comforting, and easy to love.", shareSummary: "I'm Hot Cocoa energy." },
+      { slug: "chamomile-tea", title: "Chamomile Tea", description: "You bring calm, softness, and a gentle kind of care.", shareSummary: "I'm Chamomile Tea energy." },
+      { slug: "chai-latte", title: "Chai Latte", description: "You are warm, layered, and quietly bold.", shareSummary: "I'm Chai Latte energy." },
+      { slug: "warm-cider", title: "Warm Cider", description: "You feel seasonal, familiar, and full of easy charm.", shareSummary: "I'm Warm Cider energy." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-home-project-should-you-tackle-next",
+    title: "What Home Project Should You Tackle Next?",
+    description: "Find a simple home project that matches your current energy.",
+    category: "home",
+    type: "recommendation",
+    tags: ["home", "projects", "decor"],
+    publishedAt: "2026-03-20",
+    questions: [
+      { text: "Your home needs more...", answers: [
+        { text: "Calm", result: "declutter-zone" },
+        { text: "Personality", result: "style-corner" },
+        { text: "Function", result: "drop-zone" },
+        { text: "Freshness", result: "paint-refresh" }
+      ] },
+      { text: "You have energy for...", answers: [
+        { text: "Sorting", result: "declutter-zone" },
+        { text: "Styling", result: "style-corner" },
+        { text: "Solving a problem", result: "drop-zone" },
+        { text: "A visible change", result: "paint-refresh" }
+      ] },
+      { text: "A satisfying result would be...", answers: [
+        { text: "Less stuff", result: "declutter-zone" },
+        { text: "A prettier corner", result: "style-corner" },
+        { text: "A smoother routine", result: "drop-zone" },
+        { text: "A new mood", result: "paint-refresh" }
+      ] }
+    ],
+    results: [
+      { slug: "declutter-zone", title: "Declutter One Zone", description: "Choose one small area and give it breathing room.", shareSummary: "My next home project is Declutter One Zone." },
+      { slug: "style-corner", title: "Style a Corner", description: "A small visual upgrade will make the whole room feel fresher.", shareSummary: "My next home project is Style a Corner." },
+      { slug: "drop-zone", title: "Create a Drop Zone", description: "Solve the daily pile-up with a practical landing spot.", shareSummary: "My next home project is Create a Drop Zone." },
+      { slug: "paint-refresh", title: "Paint Refresh", description: "A little color or touch-up could shift the whole feeling.", shareSummary: "My next home project is Paint Refresh." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-work-break-do-you-need",
+    title: "What Work Break Do You Need?",
+    description: "Find the short break that would help your brain reset right now.",
+    category: "career",
+    type: "recommendation",
+    tags: ["career", "work", "break"],
+    publishedAt: "2026-03-19",
+    questions: [
+      { text: "Your brain feels...", answers: [
+        { text: "Foggy", result: "fresh-air" },
+        { text: "Tense", result: "stretch-break" },
+        { text: "Scattered", result: "tiny-plan" },
+        { text: "Drained", result: "quiet-break" }
+      ] },
+      { text: "You have about...", answers: [
+        { text: "Five minutes outside", result: "fresh-air" },
+        { text: "Room to move", result: "stretch-break" },
+        { text: "A notebook", result: "tiny-plan" },
+        { text: "A quiet corner", result: "quiet-break" }
+      ] },
+      { text: "You want to return feeling...", answers: [
+        { text: "Awake", result: "fresh-air" },
+        { text: "Looser", result: "stretch-break" },
+        { text: "Clear", result: "tiny-plan" },
+        { text: "Rested", result: "quiet-break" }
+      ] }
+    ],
+    results: [
+      { slug: "fresh-air", title: "Fresh-Air Break", description: "Step away, look farther than your screen, and reset your attention.", shareSummary: "I need a Fresh-Air Break." },
+      { slug: "stretch-break", title: "Stretch Break", description: "Your body needs a reset before your focus can come back.", shareSummary: "I need a Stretch Break." },
+      { slug: "tiny-plan", title: "Tiny Plan Break", description: "Write the next three steps and make the work feel smaller.", shareSummary: "I need a Tiny Plan Break." },
+      { slug: "quiet-break", title: "Quiet Break", description: "Lower the input for a few minutes and let your system settle.", shareSummary: "I need a Quiet Break." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-shopping-list-personality-are-you",
+    title: "What Shopping List Personality Are You?",
+    description: "Find the grocery-planning style that follows you into the store.",
+    category: "money",
+    tags: ["money", "shopping", "food"],
+    publishedAt: "2026-03-18",
+    questions: [
+      { text: "Your grocery list is usually...", answers: [
+        { text: "Detailed", result: "list-master" },
+        { text: "Mostly mental", result: "memory-shopper" },
+        { text: "Based on deals", result: "deal-hunter" },
+        { text: "A loose vibe", result: "mood-shopper" }
+      ] },
+      { text: "At the store, you prioritize...", answers: [
+        { text: "The plan", result: "list-master" },
+        { text: "The usuals", result: "memory-shopper" },
+        { text: "Savings", result: "deal-hunter" },
+        { text: "What sounds good", result: "mood-shopper" }
+      ] },
+      { text: "Your cart says...", answers: [
+        { text: "Prepared", result: "list-master" },
+        { text: "Reliable", result: "memory-shopper" },
+        { text: "Strategic", result: "deal-hunter" },
+        { text: "Inspired", result: "mood-shopper" }
+      ] }
+    ],
+    results: [
+      { slug: "list-master", title: "List Master", description: "You shop best with structure, categories, and a plan.", shareSummary: "My shopping list personality is List Master." },
+      { slug: "memory-shopper", title: "Memory Shopper", description: "You know your staples and trust the familiar rhythm.", shareSummary: "My shopping list personality is Memory Shopper." },
+      { slug: "deal-hunter", title: "Deal Hunter", description: "You know how to spot value and pivot around a good find.", shareSummary: "My shopping list personality is Deal Hunter." },
+      { slug: "mood-shopper", title: "Mood Shopper", description: "You shop with appetite, curiosity, and a little spontaneity.", shareSummary: "My shopping list personality is Mood Shopper." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-airport-personality-are-you",
+    title: "What Airport Personality Are You?",
+    description: "Find your travel-day energy from gate planner to snack wanderer.",
+    category: "travel",
+    tags: ["travel", "airport", "personality"],
+    publishedAt: "2026-03-17",
+    trending: true,
+    questions: [
+      { text: "You arrive at the airport...", answers: [
+        { text: "Very early", result: "gate-guardian" },
+        { text: "Right on time", result: "efficient-flyer" },
+        { text: "With snacks in mind", result: "terminal-wanderer" },
+        { text: "A little rushed", result: "last-call" }
+      ] },
+      { text: "Before boarding, you...", answers: [
+        { text: "Confirm everything", result: "gate-guardian" },
+        { text: "Find the fastest route", result: "efficient-flyer" },
+        { text: "Browse and snack", result: "terminal-wanderer" },
+        { text: "Hope for the best", result: "last-call" }
+      ] },
+      { text: "Your carry-on has...", answers: [
+        { text: "Backup items", result: "gate-guardian" },
+        { text: "Only essentials", result: "efficient-flyer" },
+        { text: "Treats", result: "terminal-wanderer" },
+        { text: "A mystery mix", result: "last-call" }
+      ] }
+    ],
+    results: [
+      { slug: "gate-guardian", title: "Gate Guardian", description: "You are prepared, early, and already watching the boarding screen.", shareSummary: "My airport personality is Gate Guardian." },
+      { slug: "efficient-flyer", title: "Efficient Flyer", description: "You move through the airport with focus and minimal fuss.", shareSummary: "My airport personality is Efficient Flyer." },
+      { slug: "terminal-wanderer", title: "Terminal Wanderer", description: "You turn airport time into browsing, snacks, and people-watching.", shareSummary: "My airport personality is Terminal Wanderer." },
+      { slug: "last-call", title: "Last-Call Flyer", description: "You bring suspense to the gate, but somehow you make it.", shareSummary: "My airport personality is Last-Call Flyer." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kid-activity-matches-today",
+    title: "What Kid Activity Matches Today?",
+    description: "A quick parenting recommendation quiz for choosing a doable activity.",
+    category: "parenting",
+    type: "recommendation",
+    tags: ["parenting", "kids", "activities"],
+    publishedAt: "2026-03-16",
+    questions: [
+      { text: "Today has more...", answers: [
+        { text: "Big energy", result: "outside-play" },
+        { text: "Quiet energy", result: "craft-table" },
+        { text: "Curiosity", result: "kitchen-science" },
+        { text: "Need for ease", result: "movie-fort" }
+      ] },
+      { text: "You need the activity to be...", answers: [
+        { text: "Physical", result: "outside-play" },
+        { text: "Creative", result: "craft-table" },
+        { text: "Interesting", result: "kitchen-science" },
+        { text: "Low effort", result: "movie-fort" }
+      ] },
+      { text: "Pick a supply.", answers: [
+        { text: "Sidewalk chalk", result: "outside-play" },
+        { text: "Paper", result: "craft-table" },
+        { text: "Baking soda", result: "kitchen-science" },
+        { text: "Blankets", result: "movie-fort" }
+      ] }
+    ],
+    results: [
+      { slug: "outside-play", title: "Outside Play", description: "Let the energy move somewhere with space.", shareSummary: "Today's kid activity is Outside Play." },
+      { slug: "craft-table", title: "Craft Table", description: "A creative setup could buy focus and a little calm.", shareSummary: "Today's kid activity is Craft Table." },
+      { slug: "kitchen-science", title: "Kitchen Science", description: "A simple experiment fits the curiosity in the room.", shareSummary: "Today's kid activity is Kitchen Science." },
+      { slug: "movie-fort", title: "Movie Fort", description: "Today calls for cozy, contained, and low-pressure.", shareSummary: "Today's kid activity is Movie Fort." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-reality-show-role-would-you-play",
+    title: "What Reality Show Role Would You Play?",
+    description: "Find your imaginary reality TV personality role.",
+    category: "pop-culture",
+    tags: ["pop culture", "tv", "personality"],
+    publishedAt: "2026-03-15",
+    questions: [
+      { text: "In a group scene, you are...", answers: [
+        { text: "Narrating the truth", result: "confessional-star" },
+        { text: "Keeping peace", result: "house-mediator" },
+        { text: "Starting the plan", result: "plot-mover" },
+        { text: "Making people laugh", result: "comic-relief" }
+      ] },
+      { text: "Your screen time would come from...", answers: [
+        { text: "Sharp observations", result: "confessional-star" },
+        { text: "Emotional intelligence", result: "house-mediator" },
+        { text: "Bold choices", result: "plot-mover" },
+        { text: "Perfect one-liners", result: "comic-relief" }
+      ] },
+      { text: "Your edit is...", answers: [
+        { text: "Honest", result: "confessional-star" },
+        { text: "Grounded", result: "house-mediator" },
+        { text: "Eventful", result: "plot-mover" },
+        { text: "Beloved", result: "comic-relief" }
+      ] }
+    ],
+    results: [
+      { slug: "confessional-star", title: "Confessional Star", description: "You would say what everyone else is thinking.", shareSummary: "My reality show role is Confessional Star." },
+      { slug: "house-mediator", title: "House Mediator", description: "You would read the room and keep the group from fully unraveling.", shareSummary: "My reality show role is House Mediator." },
+      { slug: "plot-mover", title: "Plot Mover", description: "You would make decisions that keep the episode alive.", shareSummary: "My reality show role is Plot Mover." },
+      { slug: "comic-relief", title: "Comic Relief", description: "You would become the fan favorite by being funny at the exact right time.", shareSummary: "My reality show role is Comic Relief." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-fall-activity-fits-your-vibe",
+    title: "What Fall Activity Fits Your Vibe?",
+    description: "Find the autumn plan that best matches your seasonal mood.",
+    category: "seasonal",
+    type: "recommendation",
+    tags: ["fall", "seasonal", "cozy"],
+    publishedAt: "2026-03-14",
+    questions: [
+      { text: "Fall makes you want...", answers: [
+        { text: "A cozy kitchen", result: "bake-something" },
+        { text: "A scenic walk", result: "leaf-walk" },
+        { text: "A decorated porch", result: "porch-refresh" },
+        { text: "A movie night", result: "spooky-cozy" }
+      ] },
+      { text: "Pick a fall detail.", answers: [
+        { text: "Cinnamon", result: "bake-something" },
+        { text: "Crunchy leaves", result: "leaf-walk" },
+        { text: "Pumpkins", result: "porch-refresh" },
+        { text: "Candles", result: "spooky-cozy" }
+      ] },
+      { text: "Your ideal fall afternoon is...", answers: [
+        { text: "Warm from the oven", result: "bake-something" },
+        { text: "Outside", result: "leaf-walk" },
+        { text: "A little decorative", result: "porch-refresh" },
+        { text: "Dim and cozy", result: "spooky-cozy" }
+      ] }
+    ],
+    results: [
+      { slug: "bake-something", title: "Bake Something", description: "Your fall vibe wants warmth, spice, and a kitchen that smells amazing.", shareSummary: "My fall activity is Bake Something." },
+      { slug: "leaf-walk", title: "Leaf Walk", description: "You need crisp air, color, and a gentle seasonal reset.", shareSummary: "My fall activity is Leaf Walk." },
+      { slug: "porch-refresh", title: "Porch Refresh", description: "A little seasonal styling would make home feel extra welcoming.", shareSummary: "My fall activity is Porch Refresh." },
+      { slug: "spooky-cozy", title: "Spooky-Cozy Movie Night", description: "You want blankets, candles, and something just a little atmospheric.", shareSummary: "My fall activity is Spooky-Cozy Movie Night." }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-coffee-trivia-quiz",
+    title: "Can You Pass This Coffee Trivia Quiz?",
+    description: "A quick trivia quiz for coffee fans and casual sippers.",
+    category: "trivia",
+    tags: ["trivia", "coffee", "food"],
+    publishedAt: "2026-03-13",
+    questions: [
+      { text: "Espresso is made by forcing hot water through what?", correct: "Finely ground coffee", wrong: ["Tea leaves", "Cocoa powder", "Whole beans only"] },
+      { text: "A latte traditionally includes espresso and what?", correct: "Steamed milk", wrong: ["Lemon juice", "Sparkling water", "Orange peel"] },
+      { text: "Decaf coffee has had most of what removed?", correct: "Caffeine", wrong: ["Water", "Flavor", "Color"] },
+      { text: "Coffee beans are usually roasted before being...", correct: "Ground and brewed", wrong: ["Frozen and peeled", "Boiled whole", "Fermented into tea"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-classic-movies",
+    title: "How Well Do You Know Classic Movies?",
+    description: "Try a quick round of familiar classic movie trivia.",
+    category: "pop-culture",
+    tags: ["movies", "pop culture", "trivia"],
+    publishedAt: "2026-03-12",
+    questions: [
+      { text: "Which movie features the line, 'There's no place like home'?", correct: "The Wizard of Oz", wrong: ["Casablanca", "Jaws", "Rocky"] },
+      { text: "Which film features a shark terrorizing a beach town?", correct: "Jaws", wrong: ["Grease", "The Sound of Music", "Rear Window"] },
+      { text: "Which movie is set largely around a boxing underdog?", correct: "Rocky", wrong: ["Mary Poppins", "Psycho", "Singin' in the Rain"] },
+      { text: "Which classic movie includes the song 'Singin' in the Rain'?", correct: "Singin' in the Rain", wrong: ["The Godfather", "King Kong", "Citizen Kane"] }
+    ]
   })
 ];
 
