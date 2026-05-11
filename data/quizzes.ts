@@ -3153,6 +3153,288 @@ const expansionQuizzes: Quiz[] = [
       { slug: "respectful-boundaries", title: "Respectful of Boundaries", description: "Your green flag is that you understand closeness should still leave room to breathe.", shareSummary: "My green flag personality trait is Respectful of Boundaries." },
       { slug: "secure-supporter", title: "Secure Supporter", description: "Your green flag is that you can cheer for people without needing to be centered.", shareSummary: "My green flag personality trait is Secure Supporter." }
     ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-everyday-money-quiz",
+    title: "Can You Pass This Everyday Money Quiz?",
+    description: "Test a few basic money terms and everyday finance facts.",
+    category: "money",
+    tags: ["trivia", "money", "finance"],
+    publishedAt: "2026-05-11",
+    trending: true,
+    questions: [
+      { text: "A budget is mainly used to track...", correct: "Income and expenses", wrong: ["Shoe sizes", "Weather patterns", "Movie ratings"] },
+      { text: "Interest is commonly described as...", correct: "The cost of borrowing money", wrong: ["A grocery discount", "A type of receipt", "A bank holiday"] },
+      { text: "An emergency fund is usually money set aside for...", correct: "Unexpected expenses", wrong: ["Only vacations", "Daily coffee only", "Gift wrapping"] },
+      { text: "A credit score is most closely related to...", correct: "Credit history", wrong: ["Height", "Favorite color", "Home decor style"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-common-cleaning-facts",
+    title: "How Well Do You Know Common Cleaning Facts?",
+    description: "Try a quick quiz about simple home cleaning basics.",
+    category: "home",
+    tags: ["trivia", "cleaning", "home"],
+    publishedAt: "2026-05-10",
+    questions: [
+      { text: "Which tool is commonly used to remove dust from shelves?", correct: "Microfiber cloth", wrong: ["Rolling pin", "Measuring cup", "Garden shovel"] },
+      { text: "The lint trap belongs to which appliance?", correct: "Dryer", wrong: ["Dishwasher", "Microwave", "Toaster"] },
+      { text: "A common first step for spills is to...", correct: "Blot the liquid", wrong: ["Iron it", "Rub with mud", "Freeze the floor"] },
+      { text: "Which room is most associated with grout lines?", correct: "Bathroom", wrong: ["Garage roof", "Bedroom ceiling", "Closet rod"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-name-these-common-kitchen-tools",
+    title: "Can You Name These Common Kitchen Tools?",
+    description: "Test your knowledge of everyday kitchen tools and what they do.",
+    category: "food",
+    tags: ["trivia", "kitchen", "food"],
+    publishedAt: "2026-05-09",
+    questions: [
+      { text: "Which tool is used to drain pasta?", correct: "Colander", wrong: ["Whisk", "Peeler", "Thermometer"] },
+      { text: "Which tool is best for beating eggs?", correct: "Whisk", wrong: ["Tongs", "Can opener", "Rolling pin"] },
+      { text: "A spatula is often used to...", correct: "Flip or lift food", wrong: ["Measure oven heat", "Sharpen knives", "Open cans"] },
+      { text: "Which tool removes the outer skin from vegetables?", correct: "Peeler", wrong: ["Ladle", "Timer", "Strainer"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-much-do-you-know-about-national-parks",
+    title: "How Much Do You Know About National Parks?",
+    description: "A quick trivia quiz about famous U.S. national parks.",
+    category: "travel",
+    tags: ["trivia", "travel", "national parks"],
+    publishedAt: "2026-05-08",
+    trending: true,
+    questions: [
+      { text: "Yellowstone is famous for which geyser?", correct: "Old Faithful", wrong: ["Big Thunder", "Silver Spray", "Hidden Steam"] },
+      { text: "The Grand Canyon is mainly in which state?", correct: "Arizona", wrong: ["Florida", "Maine", "Iowa"] },
+      { text: "Yosemite is especially known for...", correct: "Granite cliffs and waterfalls", wrong: ["Tropical beaches", "Active volcano tours", "Desert pyramids"] },
+      { text: "Everglades National Park is in which state?", correct: "Florida", wrong: ["Oregon", "Nevada", "Vermont"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-basic-weather-quiz",
+    title: "Can You Pass This Basic Weather Quiz?",
+    description: "Test a few simple weather words and everyday forecast facts.",
+    category: "seasonal",
+    tags: ["trivia", "weather", "seasonal"],
+    publishedAt: "2026-05-07",
+    questions: [
+      { text: "Rain, snow, sleet, and hail are all forms of...", correct: "Precipitation", wrong: ["Evaporation", "Insulation", "Decoration"] },
+      { text: "A thermometer measures...", correct: "Temperature", wrong: ["Wind direction", "Cloud shape", "Moon phase"] },
+      { text: "A rainbow usually appears when sunlight passes through...", correct: "Water droplets", wrong: ["Tree bark", "Sand only", "Metal pipes"] },
+      { text: "Wind direction is often shown with a...", correct: "Weather vane", wrong: ["Kitchen scale", "Doorbell", "Paint roller"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-classic-board-games",
+    title: "How Well Do You Know Classic Board Games?",
+    description: "Take a quick trivia quiz about familiar board games.",
+    category: "pop-culture",
+    tags: ["trivia", "games", "pop culture"],
+    publishedAt: "2026-05-06",
+    questions: [
+      { text: "In Monopoly, players move around the board by rolling...", correct: "Dice", wrong: ["Cards only", "A spinner", "Coins"] },
+      { text: "Scrabble is mostly about making...", correct: "Words", wrong: ["Sandwiches", "Maps", "Songs"] },
+      { text: "In Clue, players try to solve a...", correct: "Mystery", wrong: ["Recipe", "Math worksheet", "Weather report"] },
+      { text: "Checkers is played on a board with...", correct: "Alternating colored squares", wrong: ["Only circles", "Triangle tiles", "Blank paper"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-answer-these-basic-book-trivia-questions",
+    title: "Can You Answer These Basic Book Trivia Questions?",
+    description: "A simple trivia quiz for readers and library fans.",
+    category: "pop-culture",
+    tags: ["trivia", "books", "reading"],
+    publishedAt: "2026-05-05",
+    questions: [
+      { text: "A table of contents usually appears near the...", correct: "Beginning of a book", wrong: ["Back cover only", "Middle of every page", "Price tag"] },
+      { text: "The person who writes a book is the...", correct: "Author", wrong: ["Carpenter", "Pilot", "Florist"] },
+      { text: "Fiction usually means a story is...", correct: "Imagined or invented", wrong: ["Always a tax form", "Only a map", "A grocery list"] },
+      { text: "A bookmark is used to...", correct: "Save your place", wrong: ["Measure soup", "Open doors", "Charge a phone"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-state-nicknames",
+    title: "How Well Do You Know State Nicknames?",
+    description: "Try a quick quiz about a few well-known U.S. state nicknames.",
+    category: "trivia",
+    tags: ["trivia", "states", "geography"],
+    publishedAt: "2026-05-04",
+    questions: [
+      { text: "Florida is commonly known as the...", correct: "Sunshine State", wrong: ["Granite State", "Garden State", "Beehive State"] },
+      { text: "New York is often called the...", correct: "Empire State", wrong: ["Lone Star State", "Peach State", "Silver State"] },
+      { text: "Texas is known as the...", correct: "Lone Star State", wrong: ["Ocean State", "Aloha State", "Bay State"] },
+      { text: "California is known as the...", correct: "Golden State", wrong: ["Sooner State", "Bluegrass State", "Volunteer State"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-simple-gardening-quiz",
+    title: "Can You Pass This Simple Gardening Quiz?",
+    description: "Test basic gardening terms and plant-care knowledge.",
+    category: "home",
+    tags: ["trivia", "garden", "home"],
+    publishedAt: "2026-05-03",
+    questions: [
+      { text: "Plants generally need sunlight, water, and...", correct: "Nutrients", wrong: ["Television", "Shoelaces", "Perfume"] },
+      { text: "A watering can is used to...", correct: "Water plants", wrong: ["Bake bread", "Wash windows only", "Measure carpet"] },
+      { text: "Compost is often made from...", correct: "Organic material", wrong: ["Plastic wrap", "Metal nails", "Glass bulbs"] },
+      { text: "Seeds are planted to grow...", correct: "New plants", wrong: ["Light bulbs", "Chair legs", "Paint brushes"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-breakfast-foods",
+    title: "How Well Do You Know Breakfast Foods?",
+    description: "A quick food trivia quiz for breakfast lovers.",
+    category: "food",
+    tags: ["trivia", "breakfast", "food"],
+    publishedAt: "2026-05-02",
+    questions: [
+      { text: "Oatmeal is made from...", correct: "Oats", wrong: ["Rice noodles", "Cocoa beans", "Lettuce"] },
+      { text: "A common pancake topping is...", correct: "Maple syrup", wrong: ["Soy sauce", "Mustard", "Vinegar"] },
+      { text: "An omelet is mainly made with...", correct: "Eggs", wrong: ["Apples", "Potatoes only", "Flour tortillas"] },
+      { text: "Toast is bread that has been...", correct: "Heated until browned", wrong: ["Frozen into cubes", "Boiled in milk", "Rolled into pasta"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-airport-trivia-quiz",
+    title: "Can You Pass This Airport Trivia Quiz?",
+    description: "Test a few basic travel and airport terms.",
+    category: "travel",
+    tags: ["trivia", "airport", "travel"],
+    publishedAt: "2026-05-01",
+    questions: [
+      { text: "A boarding pass is used to...", correct: "Board a flight", wrong: ["Order a pizza", "Unlock a hotel pool", "Rent a bicycle"] },
+      { text: "Checked luggage usually travels in the...", correct: "Cargo hold", wrong: ["Cockpit seat", "Snack cart", "Airport fountain"] },
+      { text: "A layover is time spent between...", correct: "Connecting flights", wrong: ["Breakfast courses", "Movie scenes", "Laundry loads"] },
+      { text: "TSA screening is associated with...", correct: "Airport security", wrong: ["Restaurant menus", "Library cards", "Road tolls"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-much-do-you-know-about-pets",
+    title: "How Much Do You Know About Pets?",
+    description: "Try a quick trivia quiz about common household pets.",
+    category: "lifestyle",
+    tags: ["trivia", "pets", "lifestyle"],
+    publishedAt: "2026-04-30",
+    questions: [
+      { text: "Dogs are often trained to respond to...", correct: "Commands", wrong: ["Weather maps", "Paint colors", "Receipts"] },
+      { text: "Cats are known for using a...", correct: "Litter box", wrong: ["Lunchbox", "Toolbox", "Mailbox"] },
+      { text: "Fish kept at home often live in an...", correct: "Aquarium", wrong: ["Oven", "Closet", "Birdhouse"] },
+      { text: "A veterinarian cares for...", correct: "Animals", wrong: ["Cars", "Shoes", "Lamps"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-answer-these-easy-history-questions",
+    title: "Can You Answer These Easy History Questions?",
+    description: "A simple general history trivia quiz.",
+    category: "trivia",
+    tags: ["trivia", "history", "general knowledge"],
+    publishedAt: "2026-04-29",
+    questions: [
+      { text: "The Declaration of Independence is associated with which country?", correct: "United States", wrong: ["Japan", "Brazil", "Australia"] },
+      { text: "Ancient pyramids are strongly associated with...", correct: "Egypt", wrong: ["Canada", "Iceland", "New Zealand"] },
+      { text: "The Renaissance began in which region of Europe?", correct: "Italy", wrong: ["Antarctica", "Greenland", "Hawaii"] },
+      { text: "A museum is a place where people often view...", correct: "Historical objects and art", wrong: ["Only car tires", "Fresh laundry", "Clouds indoors"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-holiday-traditions",
+    title: "How Well Do You Know Holiday Traditions?",
+    description: "Test a few familiar holiday and seasonal traditions.",
+    category: "seasonal",
+    tags: ["trivia", "holiday", "seasonal"],
+    publishedAt: "2026-04-28",
+    questions: [
+      { text: "Carving pumpkins is most associated with...", correct: "Halloween", wrong: ["Valentine's Day", "Labor Day", "April Fools' Day"] },
+      { text: "Fireworks are often associated with which U.S. holiday?", correct: "Fourth of July", wrong: ["Groundhog Day", "Presidents' Day", "Flag Day only"] },
+      { text: "A countdown to midnight is commonly associated with...", correct: "New Year's Eve", wrong: ["Earth Day", "Tax Day", "Mother's Day"] },
+      { text: "Egg hunts are commonly associated with...", correct: "Easter", wrong: ["Thanksgiving", "Memorial Day", "Halloween"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-music-basics-quiz",
+    title: "Can You Pass This Music Basics Quiz?",
+    description: "A quick quiz about simple music terms and instruments.",
+    category: "pop-culture",
+    tags: ["trivia", "music", "pop culture"],
+    publishedAt: "2026-04-27",
+    questions: [
+      { text: "A piano has black and white...", correct: "Keys", wrong: ["Wheels", "Windows", "Handles"] },
+      { text: "A drummer usually plays...", correct: "Drums", wrong: ["Flute only", "Violin strings", "Trumpet valves"] },
+      { text: "A microphone is used to amplify...", correct: "Sound", wrong: ["Soup", "Sunlight", "Paper"] },
+      { text: "A song's repeated main section is often called the...", correct: "Chorus", wrong: ["Receipt", "Compass", "Curtain"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-everyday-tech",
+    title: "How Well Do You Know Everyday Tech?",
+    description: "Test simple technology terms from daily life.",
+    category: "trivia",
+    tags: ["trivia", "technology", "everyday"],
+    publishedAt: "2026-04-26",
+    questions: [
+      { text: "Wi-Fi is used to connect devices to...", correct: "A wireless network", wrong: ["A frying pan", "A bookshelf", "A garden hose"] },
+      { text: "A password helps protect...", correct: "An account", wrong: ["A sandwich", "A pillow", "A plant pot"] },
+      { text: "A charger is used to refill a device's...", correct: "Battery", wrong: ["Paint tray", "Water glass", "Notebook"] },
+      { text: "A browser is commonly used to access...", correct: "Websites", wrong: ["Ovens", "Bicycles", "Doorknobs"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-pass-this-home-decor-terms-quiz",
+    title: "Can You Pass This Home Decor Terms Quiz?",
+    description: "Try a quick quiz about familiar home decor words.",
+    category: "home",
+    tags: ["trivia", "decor", "home"],
+    publishedAt: "2026-04-25",
+    questions: [
+      { text: "A rug is usually placed on the...", correct: "Floor", wrong: ["Ceiling fan", "Roof", "Doorknob"] },
+      { text: "Curtains are commonly used around...", correct: "Windows", wrong: ["Refrigerator shelves", "Kitchen sinks only", "Light switches"] },
+      { text: "A throw pillow is usually found on a...", correct: "Sofa or bed", wrong: ["Driveway", "Tool bench", "Garden hose"] },
+      { text: "Wallpaper is applied to...", correct: "Walls", wrong: ["Shoes", "Dinner plates", "Computer cords"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-much-do-you-know-about-fruits-and-vegetables",
+    title: "How Much Do You Know About Fruits and Vegetables?",
+    description: "A quick food trivia quiz about common produce.",
+    category: "food",
+    tags: ["trivia", "produce", "food"],
+    publishedAt: "2026-04-24",
+    questions: [
+      { text: "Carrots are often orange and grow...", correct: "Underground", wrong: ["On tall palm trees", "In the ocean", "Inside bread"] },
+      { text: "A lemon is known for tasting...", correct: "Sour", wrong: ["Salty like chips", "Spicy like pepper", "Plain like water"] },
+      { text: "Which is commonly used to make guacamole?", correct: "Avocado", wrong: ["Blueberry", "Cabbage only", "Pear"] },
+      { text: "Raisins are dried...", correct: "Grapes", wrong: ["Carrots", "Potatoes", "Lettuce leaves"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "can-you-answer-these-family-movie-trivia-questions",
+    title: "Can You Answer These Family Movie Trivia Questions?",
+    description: "A light trivia quiz about familiar family movie ideas.",
+    category: "pop-culture",
+    tags: ["trivia", "movies", "family"],
+    publishedAt: "2026-04-23",
+    questions: [
+      { text: "Animated movies are created with...", correct: "Drawn or computer-generated images", wrong: ["Only handwritten receipts", "Weather reports", "Blank screens"] },
+      { text: "A movie trailer is usually a...", correct: "Preview", wrong: ["Tax form", "Kitchen tool", "Board game piece"] },
+      { text: "A sequel is a movie that comes...", correct: "After another movie", wrong: ["Before all books", "Inside a song", "Instead of credits"] },
+      { text: "Movie credits usually list...", correct: "People who worked on the film", wrong: ["Only grocery prices", "Airport gates", "Plant names"] }
+    ]
+  }),
+  makeTriviaQuiz({
+    slug: "how-well-do-you-know-road-trip-basics",
+    title: "How Well Do You Know Road Trip Basics?",
+    description: "A quick trivia quiz about road trip planning and travel basics.",
+    category: "travel",
+    tags: ["trivia", "road trip", "travel"],
+    publishedAt: "2026-04-22",
+    questions: [
+      { text: "A GPS is used to help with...", correct: "Navigation", wrong: ["Cooking pasta", "Washing clothes", "Painting walls"] },
+      { text: "A rest stop is commonly used for...", correct: "Breaks during a drive", wrong: ["Boarding airplanes", "Buying concert tickets only", "Planting trees"] },
+      { text: "Before a long drive, many people check their car's...", correct: "Fuel or charge level", wrong: ["Pillow color", "Book title", "Curtain length"] },
+      { text: "A scenic route is usually chosen for...", correct: "Nice views", wrong: ["Shortest grocery line", "Loud alarms", "Indoor swimming"] }
+    ]
   })
 ];
 
