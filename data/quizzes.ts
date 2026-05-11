@@ -2825,6 +2825,160 @@ const expansionQuizzes: Quiz[] = [
       { slug: "creative-recharge", title: "Creative Recharge", description: "Your energy returns when you make, imagine, style, write, cook, or play.", shareSummary: "My best recharge is Creative Recharge." },
       { slug: "connection-recharge", title: "Connection Recharge", description: "Your energy comes back through safe, easy connection with people who feel like home.", shareSummary: "My best recharge is Connection Recharge." }
     ]
+  }),
+  makeTriviaQuiz({
+    slug: "only-90s-kids-will-remember-these",
+    title: "Only 90s Kids Will Remember These",
+    description: "Test your memory of familiar 90s childhood moments, snacks, toys, and pop culture.",
+    category: "pop-culture",
+    tags: ["90s", "nostalgia", "trivia"],
+    publishedAt: "2026-05-11",
+    trending: true,
+    questions: [
+      { text: "Which virtual pet toy became a huge 90s playground obsession?", correct: "Tamagotchi", wrong: ["Fidget spinner", "Hoverboard", "Smart speaker"] },
+      { text: "What colorful folder brand was famous for bold school-supply designs?", correct: "Lisa Frank", wrong: ["Le Creuset", "Dyson", "Peloton"] },
+      { text: "Which handheld game system was famous for Pokemon games in the late 90s?", correct: "Game Boy", wrong: ["Blu-ray player", "Kindle", "iPad"] },
+      { text: "Which phrase was commonly associated with dial-up internet?", correct: "You've got mail", wrong: ["Tap to pay", "Swipe up", "Streaming now"] }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-year-does-your-personality-belong-in",
+    title: "What Year Does Your Personality Belong In?",
+    description: "Find the throwback year that matches your mood, taste, and personality energy.",
+    category: "pop-culture",
+    tags: ["nostalgia", "personality", "decades"],
+    publishedAt: "2026-05-10",
+    trending: true,
+    questions: [
+      { text: "Pick a vibe.", answers: [
+        { text: "Bright, bold, and optimistic", result: "year-1989" },
+        { text: "Casual, cool, and a little sarcastic", result: "year-1996" },
+        { text: "Glossy, fun, and dramatic", result: "year-2003" },
+        { text: "Indie, cozy, and online", result: "year-2012" }
+      ] },
+      { text: "Your ideal soundtrack has...", answers: [
+        { text: "Big pop hooks", result: "year-1989" },
+        { text: "Alt-rock energy", result: "year-1996" },
+        { text: "Dance-pop confidence", result: "year-2003" },
+        { text: "Soft playlist feelings", result: "year-2012" }
+      ] },
+      { text: "Your personality leans...", answers: [
+        { text: "Expressive", result: "year-1989" },
+        { text: "Laid-back", result: "year-1996" },
+        { text: "Main-character", result: "year-2003" },
+        { text: "Thoughtful", result: "year-2012" }
+      ] }
+    ],
+    results: [
+      { slug: "year-1989", title: "1989", description: "Your personality belongs in 1989: bold, upbeat, expressive, and impossible to ignore.", shareSummary: "My personality belongs in 1989." },
+      { slug: "year-1996", title: "1996", description: "Your personality belongs in 1996: relaxed, clever, a little nostalgic, and effortlessly cool.", shareSummary: "My personality belongs in 1996." },
+      { slug: "year-2003", title: "2003", description: "Your personality belongs in 2003: glossy, playful, dramatic, and ready for a moment.", shareSummary: "My personality belongs in 2003." },
+      { slug: "year-2012", title: "2012", description: "Your personality belongs in 2012: curated, introspective, internet-fluent, and quietly romantic.", shareSummary: "My personality belongs in 2012." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "which-early-2000s-trend-matches-you",
+    title: "Which Early 2000s Trend Matches You?",
+    description: "Find the early 2000s trend that matches your personality and nostalgic style.",
+    category: "pop-culture",
+    tags: ["2000s", "nostalgia", "style"],
+    publishedAt: "2026-05-09",
+    trending: true,
+    questions: [
+      { text: "Your throwback style is...", answers: [
+        { text: "Playful and bright", result: "butterfly-clips" },
+        { text: "Cozy and casual", result: "velour-tracksuit" },
+        { text: "Techy and social", result: "flip-phone" },
+        { text: "Glossy and dramatic", result: "frosted-lip-gloss" }
+      ] },
+      { text: "Pick an accessory.", answers: [
+        { text: "Tiny colorful clips", result: "butterfly-clips" },
+        { text: "A matching set", result: "velour-tracksuit" },
+        { text: "A phone charm", result: "flip-phone" },
+        { text: "A shiny tube", result: "frosted-lip-gloss" }
+      ] },
+      { text: "Your personality gives...", answers: [
+        { text: "Whimsical", result: "butterfly-clips" },
+        { text: "Comfortable confidence", result: "velour-tracksuit" },
+        { text: "Always connected", result: "flip-phone" },
+        { text: "Main-character sparkle", result: "frosted-lip-gloss" }
+      ] }
+    ],
+    results: [
+      { slug: "butterfly-clips", title: "Butterfly Clips", description: "You are playful, colorful, and bring a little lightness to everything.", shareSummary: "My early 2000s trend is Butterfly Clips." },
+      { slug: "velour-tracksuit", title: "Velour Tracksuit", description: "You are relaxed, confident, and know comfort can still be iconic.", shareSummary: "My early 2000s trend is Velour Tracksuit." },
+      { slug: "flip-phone", title: "Flip Phone", description: "You are social, expressive, and just mysterious enough to leave people waiting for a reply.", shareSummary: "My early 2000s trend is Flip Phone." },
+      { slug: "frosted-lip-gloss", title: "Frosted Lip Gloss", description: "You are glossy, bold, and not afraid of a little attention.", shareSummary: "My early 2000s trend is Frosted Lip Gloss." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "build-a-childhood-snack-plate-and-well-judge-your-personality",
+    title: "Build a Childhood Snack Plate and We'll Judge Your Personality",
+    description: "Choose nostalgic snacks and get a playful read on your personality.",
+    category: "food",
+    tags: ["snacks", "nostalgia", "personality"],
+    publishedAt: "2026-05-08",
+    trending: true,
+    questions: [
+      { text: "Pick the main snack.", answers: [
+        { text: "Pizza rolls", result: "chaotic-fun" },
+        { text: "Goldfish crackers", result: "comfort-classic" },
+        { text: "Fruit snacks", result: "sweet-spark" },
+        { text: "Cheese and crackers", result: "tiny-grownup" }
+      ] },
+      { text: "Add something sweet.", answers: [
+        { text: "Cosmic brownie", result: "chaotic-fun" },
+        { text: "Pudding cup", result: "comfort-classic" },
+        { text: "Gushers", result: "sweet-spark" },
+        { text: "Vanilla wafers", result: "tiny-grownup" }
+      ] },
+      { text: "Choose a drink.", answers: [
+        { text: "Fruit punch", result: "chaotic-fun" },
+        { text: "Chocolate milk", result: "comfort-classic" },
+        { text: "Lemonade pouch", result: "sweet-spark" },
+        { text: "Apple juice", result: "tiny-grownup" }
+      ] }
+    ],
+    results: [
+      { slug: "chaotic-fun", title: "Chaotic Fun", description: "You bring big snack-table energy, strong opinions, and the ability to make anything more entertaining.", shareSummary: "My childhood snack plate says I'm Chaotic Fun." },
+      { slug: "comfort-classic", title: "Comfort Classic", description: "You are loyal, familiar, and the person people return to when they need something steady.", shareSummary: "My childhood snack plate says I'm Comfort Classic." },
+      { slug: "sweet-spark", title: "Sweet Spark", description: "You are bright, playful, and probably more powerful than your cute exterior suggests.", shareSummary: "My childhood snack plate says I'm Sweet Spark." },
+      { slug: "tiny-grownup", title: "Tiny Grown-Up", description: "You had opinions early, liked things just so, and probably seemed mature before your time.", shareSummary: "My childhood snack plate says I'm Tiny Grown-Up." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "which-classic-comfort-movie-matches-your-energy",
+    title: "Which Classic Comfort Movie Matches Your Energy?",
+    description: "Find the familiar comfort-movie vibe that matches your current energy.",
+    category: "pop-culture",
+    tags: ["movies", "comfort", "personality"],
+    publishedAt: "2026-05-07",
+    questions: [
+      { text: "Your comfort movie should feel...", answers: [
+        { text: "Warm and hopeful", result: "small-town-heart" },
+        { text: "Funny and familiar", result: "cozy-comedy" },
+        { text: "Romantic and soft", result: "soft-romance" },
+        { text: "Adventurous but safe", result: "gentle-adventure" }
+      ] },
+      { text: "Pick a movie-night snack.", answers: [
+        { text: "Popcorn with extra butter", result: "small-town-heart" },
+        { text: "Candy mix", result: "cozy-comedy" },
+        { text: "Chocolate", result: "soft-romance" },
+        { text: "Nachos", result: "gentle-adventure" }
+      ] },
+      { text: "Your current energy is...", answers: [
+        { text: "Tender", result: "small-town-heart" },
+        { text: "Lighthearted", result: "cozy-comedy" },
+        { text: "Dreamy", result: "soft-romance" },
+        { text: "Restless", result: "gentle-adventure" }
+      ] }
+    ],
+    results: [
+      { slug: "small-town-heart", title: "Small-Town Heart Movie", description: "Your comfort movie match is warm, hopeful, and full of people finding their way home.", shareSummary: "My comfort movie energy is Small-Town Heart." },
+      { slug: "cozy-comedy", title: "Cozy Comedy", description: "Your comfort movie match is familiar, funny, and easy to rewatch when life feels too much.", shareSummary: "My comfort movie energy is Cozy Comedy." },
+      { slug: "soft-romance", title: "Soft Romance", description: "Your comfort movie match is gentle, heartfelt, and just sentimental enough.", shareSummary: "My comfort movie energy is Soft Romance." },
+      { slug: "gentle-adventure", title: "Gentle Adventure", description: "Your comfort movie match has movement, charm, and enough adventure to feel refreshed.", shareSummary: "My comfort movie energy is Gentle Adventure." }
+    ]
   })
 ];
 
