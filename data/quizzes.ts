@@ -2615,6 +2615,216 @@ const expansionQuizzes: Quiz[] = [
       { slug: "townhouse-retreat", title: "Townhouse Retreat", description: "You would love a charming weekend spot near cafes, shops, and easy wandering.", shareSummary: "My weekend home would be a Townhouse Retreat." },
       { slug: "desert-casita", title: "Desert Casita", description: "You would love a warm, simple escape with sunshine, texture, and open skies.", shareSummary: "My weekend home would be a Desert Casita." }
     ]
+  }),
+  makeQuickQuiz({
+    slug: "are-you-burnt-out-or-just-tired",
+    title: "Are You Burnt Out or Just Tired?",
+    description: "A gentle check-in quiz to help name whether you need sleep, space, support, or a deeper reset.",
+    category: "lifestyle",
+    tags: ["burnout", "rest", "wellness"],
+    publishedAt: "2026-05-11",
+    trending: true,
+    questions: [
+      { text: "When you wake up lately, you feel...", answers: [
+        { text: "Sleepy but functional", result: "just-tired" },
+        { text: "Heavy before the day starts", result: "burnout-signals" },
+        { text: "Mentally foggy", result: "overloaded" },
+        { text: "Emotionally stretched", result: "needs-support" }
+      ] },
+      { text: "A free afternoon would make you want to...", answers: [
+        { text: "Nap hard", result: "just-tired" },
+        { text: "Avoid all responsibilities", result: "burnout-signals" },
+        { text: "Turn everything off", result: "overloaded" },
+        { text: "Talk to someone safe", result: "needs-support" }
+      ] },
+      { text: "The thing that feels hardest is...", answers: [
+        { text: "Keeping your eyes open", result: "just-tired" },
+        { text: "Caring about tasks", result: "burnout-signals" },
+        { text: "Processing one more input", result: "overloaded" },
+        { text: "Holding everything alone", result: "needs-support" }
+      ] }
+    ],
+    results: [
+      { slug: "just-tired", title: "Probably Just Tired", description: "Your body may be asking for real sleep, simpler evenings, and fewer late-day demands.", shareSummary: "I got Probably Just Tired." },
+      { slug: "burnout-signals", title: "Burnout Signals", description: "You may need more than a nap: less pressure, fewer obligations, and a reset that lasts longer than one night.", shareSummary: "I got Burnout Signals." },
+      { slug: "overloaded", title: "Overloaded Brain", description: "Your system sounds full. Lowering noise, choices, and screen input may help you feel human again.", shareSummary: "I got Overloaded Brain." },
+      { slug: "needs-support", title: "Needs Support", description: "You may be carrying too much by yourself. Gentle help, honest conversation, or practical backup could matter.", shareSummary: "I got Needs Support." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-rest-do-you-actually-need",
+    title: "What Kind of Rest Do You Actually Need?",
+    description: "Find the kind of rest your current energy is really asking for.",
+    category: "lifestyle",
+    type: "recommendation",
+    tags: ["rest", "self care", "wellness"],
+    publishedAt: "2026-05-10",
+    trending: true,
+    questions: [
+      { text: "The tiredness feels mostly...", answers: [
+        { text: "Physical", result: "physical-rest" },
+        { text: "Mental", result: "mental-rest" },
+        { text: "Emotional", result: "emotional-rest" },
+        { text: "Social", result: "social-rest" }
+      ] },
+      { text: "Right now you crave...", answers: [
+        { text: "Sleep and stillness", result: "physical-rest" },
+        { text: "Fewer decisions", result: "mental-rest" },
+        { text: "A safe exhale", result: "emotional-rest" },
+        { text: "Time alone", result: "social-rest" }
+      ] },
+      { text: "Your best reset would remove...", answers: [
+        { text: "Movement and effort", result: "physical-rest" },
+        { text: "Planning and noise", result: "mental-rest" },
+        { text: "Pressure to be okay", result: "emotional-rest" },
+        { text: "People-facing energy", result: "social-rest" }
+      ] }
+    ],
+    results: [
+      { slug: "physical-rest", title: "Physical Rest", description: "Your body wants softness: sleep, stretching, slower movement, and fewer demands.", shareSummary: "I need Physical Rest." },
+      { slug: "mental-rest", title: "Mental Rest", description: "Your brain wants quiet: fewer choices, less multitasking, and a short break from processing.", shareSummary: "I need Mental Rest." },
+      { slug: "emotional-rest", title: "Emotional Rest", description: "Your heart wants room to be honest without performing okay-ness.", shareSummary: "I need Emotional Rest." },
+      { slug: "social-rest", title: "Social Rest", description: "Your social battery wants protected space, low input, and no explaining for a while.", shareSummary: "I need Social Rest." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "is-your-brain-overstimulated",
+    title: "Is Your Brain Overstimulated?",
+    description: "A quick quiz to see whether your mind may be craving less input and more quiet.",
+    category: "lifestyle",
+    tags: ["overstimulated", "brain", "wellness"],
+    publishedAt: "2026-05-09",
+    questions: [
+      { text: "Notifications lately feel...", answers: [
+        { text: "Fine", result: "steady-input" },
+        { text: "A little annoying", result: "mildly-overstimulated" },
+        { text: "Too much", result: "very-overstimulated" },
+        { text: "Like the final straw", result: "needs-input-break" }
+      ] },
+      { text: "After scrolling, you usually feel...", answers: [
+        { text: "About the same", result: "steady-input" },
+        { text: "Slightly scattered", result: "mildly-overstimulated" },
+        { text: "Wired and tired", result: "very-overstimulated" },
+        { text: "Ready to throw your phone away", result: "needs-input-break" }
+      ] },
+      { text: "Your brain wants...", answers: [
+        { text: "Normal rhythm", result: "steady-input" },
+        { text: "A quieter evening", result: "mildly-overstimulated" },
+        { text: "A serious pause", result: "very-overstimulated" },
+        { text: "A full input reset", result: "needs-input-break" }
+      ] }
+    ],
+    results: [
+      { slug: "steady-input", title: "Steady Input", description: "You seem to be handling input fairly well, though a little quiet never hurts.", shareSummary: "My brain input level is Steady Input." },
+      { slug: "mildly-overstimulated", title: "Mildly Overstimulated", description: "Your brain may need fewer tabs, softer noise, and a slower transition into rest.", shareSummary: "My brain is Mildly Overstimulated." },
+      { slug: "very-overstimulated", title: "Very Overstimulated", description: "Your mind sounds crowded. A screen break and a low-sensory reset could help.", shareSummary: "My brain is Very Overstimulated." },
+      { slug: "needs-input-break", title: "Needs an Input Break", description: "Your system may be asking for a real pause from alerts, feeds, noise, and constant availability.", shareSummary: "My brain Needs an Input Break." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "whats-secretly-draining-your-energy",
+    title: "What's Secretly Draining Your Energy?",
+    description: "Find the hidden energy leak that may be making your days feel heavier.",
+    category: "lifestyle",
+    tags: ["energy", "wellness", "self care"],
+    publishedAt: "2026-05-08",
+    trending: true,
+    questions: [
+      { text: "The day often feels harder because of...", answers: [
+        { text: "Too many tiny decisions", result: "decision-fatigue" },
+        { text: "Unspoken feelings", result: "emotional-backlog" },
+        { text: "Digital noise", result: "screen-static" },
+        { text: "Doing too much for others", result: "overgiving" }
+      ] },
+      { text: "You feel most relieved when...", answers: [
+        { text: "Someone chooses for you", result: "decision-fatigue" },
+        { text: "You finally talk it out", result: "emotional-backlog" },
+        { text: "Everything gets quiet", result: "screen-static" },
+        { text: "You say no", result: "overgiving" }
+      ] },
+      { text: "Your energy leak sounds like...", answers: [
+        { text: "What now?", result: "decision-fatigue" },
+        { text: "I'm fine, but not really", result: "emotional-backlog" },
+        { text: "One more notification", result: "screen-static" },
+        { text: "I can handle it", result: "overgiving" }
+      ] }
+    ],
+    results: [
+      { slug: "decision-fatigue", title: "Decision Fatigue", description: "Too many small choices may be draining more energy than you realize.", shareSummary: "What's secretly draining me is Decision Fatigue." },
+      { slug: "emotional-backlog", title: "Emotional Backlog", description: "Unprocessed feelings may be taking up quiet space in the background.", shareSummary: "What's secretly draining me is Emotional Backlog." },
+      { slug: "screen-static", title: "Screen Static", description: "Constant digital input may be making your brain feel busy even when nothing is happening.", shareSummary: "What's secretly draining me is Screen Static." },
+      { slug: "overgiving", title: "Overgiving", description: "Being available to everyone else may be leaving too little room for you.", shareSummary: "What's secretly draining me is Overgiving." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "are-you-mentally-in-summer-or-winter-right-now",
+    title: "Are You Mentally in Summer or Winter Right Now?",
+    description: "Find the inner season that best matches your current mood and energy.",
+    category: "seasonal",
+    tags: ["seasonal", "mood", "personality"],
+    publishedAt: "2026-05-07",
+    questions: [
+      { text: "Your inner pace feels...", answers: [
+        { text: "Open and bright", result: "mental-summer" },
+        { text: "Slow and tucked in", result: "mental-winter" },
+        { text: "Fresh and restarting", result: "mental-spring" },
+        { text: "Reflective and cozy", result: "mental-fall" }
+      ] },
+      { text: "Right now you want more...", answers: [
+        { text: "Freedom", result: "mental-summer" },
+        { text: "Quiet", result: "mental-winter" },
+        { text: "Hope", result: "mental-spring" },
+        { text: "Comfort", result: "mental-fall" }
+      ] },
+      { text: "Pick a personal weather report.", answers: [
+        { text: "Sunny", result: "mental-summer" },
+        { text: "Snowed in", result: "mental-winter" },
+        { text: "Clearing skies", result: "mental-spring" },
+        { text: "Crisp air", result: "mental-fall" }
+      ] }
+    ],
+    results: [
+      { slug: "mental-summer", title: "Mentally in Summer", description: "Your inner world wants openness, movement, warmth, and a little more freedom.", shareSummary: "I'm mentally in Summer right now." },
+      { slug: "mental-winter", title: "Mentally in Winter", description: "Your inner world wants quiet, protection, rest, and fewer expectations.", shareSummary: "I'm mentally in Winter right now." },
+      { slug: "mental-spring", title: "Mentally in Spring", description: "Your inner world is ready for fresh starts, softer hope, and tiny signs of renewal.", shareSummary: "I'm mentally in Spring right now." },
+      { slug: "mental-fall", title: "Mentally in Fall", description: "Your inner world wants comfort, reflection, rituals, and a slower kind of beauty.", shareSummary: "I'm mentally in Fall right now." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-type-of-recharge-works-best-for-you",
+    title: "What Type of Recharge Works Best for You?",
+    description: "Find the recharge style that actually helps your energy come back.",
+    category: "lifestyle",
+    type: "recommendation",
+    tags: ["recharge", "energy", "wellness"],
+    publishedAt: "2026-05-06",
+    trending: true,
+    questions: [
+      { text: "When you are low, you recover best by...", answers: [
+        { text: "Being alone", result: "solitude-recharge" },
+        { text: "Moving your body", result: "movement-recharge" },
+        { text: "Doing something creative", result: "creative-recharge" },
+        { text: "Being with safe people", result: "connection-recharge" }
+      ] },
+      { text: "A good reset leaves you feeling...", answers: [
+        { text: "Clear", result: "solitude-recharge" },
+        { text: "Awake", result: "movement-recharge" },
+        { text: "Inspired", result: "creative-recharge" },
+        { text: "Held", result: "connection-recharge" }
+      ] },
+      { text: "Pick your ideal hour.", answers: [
+        { text: "No talking", result: "solitude-recharge" },
+        { text: "A walk", result: "movement-recharge" },
+        { text: "Making something", result: "creative-recharge" },
+        { text: "A low-pressure hangout", result: "connection-recharge" }
+      ] }
+    ],
+    results: [
+      { slug: "solitude-recharge", title: "Solitude Recharge", description: "Your energy returns when you have quiet space with no performance required.", shareSummary: "My best recharge is Solitude Recharge." },
+      { slug: "movement-recharge", title: "Movement Recharge", description: "Your energy comes back through walking, stretching, fresh air, or getting out of your head.", shareSummary: "My best recharge is Movement Recharge." },
+      { slug: "creative-recharge", title: "Creative Recharge", description: "Your energy returns when you make, imagine, style, write, cook, or play.", shareSummary: "My best recharge is Creative Recharge." },
+      { slug: "connection-recharge", title: "Connection Recharge", description: "Your energy comes back through safe, easy connection with people who feel like home.", shareSummary: "My best recharge is Connection Recharge." }
+    ]
   })
 ];
 
