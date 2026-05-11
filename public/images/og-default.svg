@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1056" height="486" rx="36" fill="#FFFFFF" stroke="#DED8CC" stroke-width="2"/>
+  <circle cx="160" cy="160" r="46" fill="#AEBEAE"/>
+  <circle cx="1040" cy="470" r="72" fill="#C7D6DF"/>
+  <text x="160" y="288" fill="#2F302D" font-family="Arial, sans-serif" font-size="72" font-weight="700">Quiz Harbor</text>
+  <text x="160" y="365" fill="#5E625C" font-family="Arial, sans-serif" font-size="34">Simple quizzes for every mood</text>
+  <text x="160" y="438" fill="#7E8F7B" font-family="Arial, sans-serif" font-size="30">Personality • Trivia • Lifestyle • Home</text>
+</svg>
