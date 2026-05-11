@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Quiz Harbor, a calm hub for friendly quizzes and shareable results."
+  description: "Learn about QuizNet, a calm hub for friendly quizzes and shareable results."
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
         <p className="eyebrow">About</p>
         <h1>Simple quizzes, easy breaks</h1>
         <p>
-          Quiz Harbor is a calm quiz hub for personality quizzes, lifestyle
+          QuizNet is a calm quiz hub for personality quizzes, lifestyle
           quizzes, trivia, home, food, travel, seasonal topics, and shareable
           results.
         </p>

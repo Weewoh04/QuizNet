@@ -92,6 +92,6 @@ export function scoreQuiz(
 }
 
 export function absoluteUrl(path = "/") {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://quiz-harbor.example.com";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://quiznet.example.com";
   return new URL(path, base).toString();
 }

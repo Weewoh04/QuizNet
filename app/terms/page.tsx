@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms",
-  description: "Terms of use for Quiz Harbor."
+  description: "Terms of use for QuizNet."
 };
 
 export default function TermsPage() {

@@ -6,7 +6,7 @@ import { getNewQuizzes, getTrendingQuizzes } from "@/lib/quiz";
 
 export const metadata: Metadata = {
   title: "Trending Quizzes",
-  description: "Take the most popular shareable quizzes on Quiz Harbor."
+  description: "Take the most popular shareable quizzes on QuizNet."
 };
 
 export default function TrendingPage() {

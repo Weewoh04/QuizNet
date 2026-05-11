@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 
-const siteName = "Quiz Harbor";
+const siteName = "QuizNet";
 const siteDescription =
   "A calm quiz hub for personality quizzes, trivia, lifestyle quizzes, and shareable results.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://quiz-harbor.example.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://quiznet.example.com"),
   title: {
     default: `${siteName} | Simple Quizzes for Every Mood`,
     template: `%s | ${siteName}`
@@ -50,7 +50,7 @@ export default function RootLayout({
         <header className="site-header">
           <div className="container header-inner">
             <Link className="brand" href="/" aria-label={`${siteName} home`}>
-              <span className="brand-mark">QH</span>
+              <span className="brand-mark">QN</span>
               <span>{siteName}</span>
             </Link>
             <nav className="nav-scroll" aria-label="Primary navigation">
@@ -67,7 +67,7 @@ export default function RootLayout({
           <div className="container footer-grid">
             <div>
               <Link className="brand footer-brand" href="/">
-                <span className="brand-mark">QH</span>
+                <span className="brand-mark">QN</span>
                 <span>{siteName}</span>
               </Link>
               <p>

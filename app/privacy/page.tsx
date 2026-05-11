@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for Quiz Harbor."
+  description: "Privacy Policy for QuizNet."
 };
 
 export default function PrivacyPage() {

@@ -7,7 +7,7 @@ import { getNewQuizzes } from "@/lib/quiz";
 
 export const metadata: Metadata = {
   title: "All Quizzes",
-  description: "Browse every personality quiz, trivia quiz, lifestyle quiz, and shareable result on Quiz Harbor."
+  description: "Browse every personality quiz, trivia quiz, lifestyle quiz, and shareable result on QuizNet."
 };
 
 export default function AllQuizzesPage() {

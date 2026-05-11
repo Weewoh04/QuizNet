@@ -18,7 +18,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Quiz Harbor</p>
+            <p className="eyebrow">QuizNet</p>
             <h1>Simple Quizzes for Every Mood</h1>
             <p>
               Take fun personality quizzes, trivia, lifestyle quizzes, and share
