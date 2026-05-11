@@ -2128,6 +2128,284 @@ const expansionQuizzes: Quiz[] = [
       { text: "Which movie is set largely around a boxing underdog?", correct: "Rocky", wrong: ["Mary Poppins", "Psycho", "Singin' in the Rain"] },
       { text: "Which classic movie includes the song 'Singin' in the Rain'?", correct: "Singin' in the Rain", wrong: ["The Godfather", "King Kong", "Citizen Kane"] }
     ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-energy-do-you-give-off",
+    title: "What Kind of Energy Do You Give Off?",
+    description: "Find the first-impression energy people may feel when they are around you.",
+    category: "personality",
+    tags: ["personality", "energy", "vibes"],
+    publishedAt: "2026-05-11",
+    trending: true,
+    questions: [
+      { text: "When you enter a room, you tend to...", answers: [
+        { text: "Notice the mood first", result: "calming-energy" },
+        { text: "Start conversation easily", result: "bright-energy" },
+        { text: "Observe before jumping in", result: "mysterious-energy" },
+        { text: "Help things feel organized", result: "grounded-energy" }
+      ] },
+      { text: "People often describe you as...", answers: [
+        { text: "Soothing", result: "calming-energy" },
+        { text: "Warm", result: "bright-energy" },
+        { text: "Interesting", result: "mysterious-energy" },
+        { text: "Reliable", result: "grounded-energy" }
+      ] },
+      { text: "Your best social contribution is...", answers: [
+        { text: "Lowering stress", result: "calming-energy" },
+        { text: "Creating momentum", result: "bright-energy" },
+        { text: "Adding depth", result: "mysterious-energy" },
+        { text: "Making people feel steady", result: "grounded-energy" }
+      ] }
+    ],
+    results: [
+      { slug: "calming-energy", title: "Calming Energy", description: "You give off a peaceful presence that helps people relax without even trying.", shareSummary: "I give off Calming Energy." },
+      { slug: "bright-energy", title: "Bright Energy", description: "You bring warmth, openness, and a little lift wherever you go.", shareSummary: "I give off Bright Energy." },
+      { slug: "mysterious-energy", title: "Mysterious Energy", description: "You give off quiet depth, curiosity, and a presence people want to understand.", shareSummary: "I give off Mysterious Energy." },
+      { slug: "grounded-energy", title: "Grounded Energy", description: "You make people feel like things are handled, steady, and safe to be real.", shareSummary: "I give off Grounded Energy." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "are-you-more-introverted-or-socially-drained",
+    title: "Are You More Introverted or Socially Drained?",
+    description: "Find whether you truly recharge alone or just need a better kind of social rhythm.",
+    category: "personality",
+    tags: ["introvert", "social battery", "personality"],
+    publishedAt: "2026-05-10",
+    trending: true,
+    questions: [
+      { text: "After a busy social day, you usually feel...", answers: [
+        { text: "Ready for deep quiet", result: "true-introvert" },
+        { text: "Tired but happy", result: "balanced-social" },
+        { text: "Overstimulated", result: "socially-drained" },
+        { text: "Still open to the right person", result: "selective-social" }
+      ] },
+      { text: "The best plan includes...", answers: [
+        { text: "Plenty of alone time", result: "true-introvert" },
+        { text: "A clear end time", result: "balanced-social" },
+        { text: "Less noise and pressure", result: "socially-drained" },
+        { text: "People you fully trust", result: "selective-social" }
+      ] },
+      { text: "You cancel plans mostly because...", answers: [
+        { text: "Solitude sounds better", result: "true-introvert" },
+        { text: "The timing is off", result: "balanced-social" },
+        { text: "You have no energy left", result: "socially-drained" },
+        { text: "The group feels wrong", result: "selective-social" }
+      ] }
+    ],
+    results: [
+      { slug: "true-introvert", title: "True Introvert", description: "You genuinely refuel in your own space, and solitude helps you come back clearer.", shareSummary: "I'm more True Introvert." },
+      { slug: "balanced-social", title: "Balanced Social", description: "You like people and quiet. The magic is having both in the right amounts.", shareSummary: "I'm Balanced Social." },
+      { slug: "socially-drained", title: "Socially Drained", description: "You may not be antisocial; your nervous system just needs gentler social settings.", shareSummary: "I'm more Socially Drained." },
+      { slug: "selective-social", title: "Selective Social", description: "You can be very social when the people feel safe, familiar, and real.", shareSummary: "I'm Selective Social." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "whats-your-hidden-personality-trait",
+    title: "What's Your Hidden Personality Trait?",
+    description: "Reveal the quiet trait that shows up once people really get to know you.",
+    category: "personality",
+    tags: ["personality", "hidden trait", "self discovery"],
+    publishedAt: "2026-05-09",
+    trending: true,
+    questions: [
+      { text: "People are surprised when they learn you are...", answers: [
+        { text: "Very determined", result: "quiet-ambition" },
+        { text: "Deeply sentimental", result: "soft-hearted" },
+        { text: "Highly observant", result: "pattern-reader" },
+        { text: "Secretly playful", result: "hidden-spark" }
+      ] },
+      { text: "Your inner world is full of...", answers: [
+        { text: "Goals", result: "quiet-ambition" },
+        { text: "Memories", result: "soft-hearted" },
+        { text: "Details", result: "pattern-reader" },
+        { text: "Ideas", result: "hidden-spark" }
+      ] },
+      { text: "When you feel comfortable, you show more...", answers: [
+        { text: "Drive", result: "quiet-ambition" },
+        { text: "Tenderness", result: "soft-hearted" },
+        { text: "Insight", result: "pattern-reader" },
+        { text: "Humor", result: "hidden-spark" }
+      ] }
+    ],
+    results: [
+      { slug: "quiet-ambition", title: "Quiet Ambition", description: "You may seem calm, but there is a strong inner drive moving underneath.", shareSummary: "My hidden personality trait is Quiet Ambition." },
+      { slug: "soft-hearted", title: "Soft-Hearted", description: "You feel more deeply than you always let on, and your care runs deep.", shareSummary: "My hidden personality trait is Soft-Hearted." },
+      { slug: "pattern-reader", title: "Pattern Reader", description: "You notice shifts, details, and meanings other people often miss.", shareSummary: "My hidden personality trait is Pattern Reader." },
+      { slug: "hidden-spark", title: "Hidden Spark", description: "There is a playful, clever side of you that comes out around the right people.", shareSummary: "My hidden personality trait is Hidden Spark." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-kind-of-comfort-person-are-you",
+    title: "What Kind of Comfort Person Are You?",
+    description: "Find how you naturally make other people feel supported.",
+    category: "relationships",
+    tags: ["comfort", "relationships", "personality"],
+    publishedAt: "2026-05-08",
+    questions: [
+      { text: "When someone is upset, you first...", answers: [
+        { text: "Listen quietly", result: "safe-listener" },
+        { text: "Offer practical help", result: "steady-helper" },
+        { text: "Say something reassuring", result: "warm-reassurer" },
+        { text: "Lighten the mood gently", result: "soft-brightener" }
+      ] },
+      { text: "Your comfort language is...", answers: [
+        { text: "Presence", result: "safe-listener" },
+        { text: "Solutions", result: "steady-helper" },
+        { text: "Words", result: "warm-reassurer" },
+        { text: "Levity", result: "soft-brightener" }
+      ] },
+      { text: "People feel better with you because you...", answers: [
+        { text: "Do not rush them", result: "safe-listener" },
+        { text: "Make the next step easier", result: "steady-helper" },
+        { text: "Remind them they matter", result: "warm-reassurer" },
+        { text: "Help them breathe again", result: "soft-brightener" }
+      ] }
+    ],
+    results: [
+      { slug: "safe-listener", title: "Safe Listener", description: "You comfort people by making room for the whole truth without judgment.", shareSummary: "I'm a Safe Listener comfort person." },
+      { slug: "steady-helper", title: "Steady Helper", description: "You comfort people by showing up with practical care and reliable support.", shareSummary: "I'm a Steady Helper comfort person." },
+      { slug: "warm-reassurer", title: "Warm Reassurer", description: "You comfort people with words that make them feel seen and less alone.", shareSummary: "I'm a Warm Reassurer comfort person." },
+      { slug: "soft-brightener", title: "Soft Brightener", description: "You comfort people by bringing gentle light into heavy moments.", shareSummary: "I'm a Soft Brightener comfort person." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "which-calm-girl-archetype-are-you",
+    title: "Which Calm Girl Archetype Are You?",
+    description: "Find the soft, grounded archetype that matches your calmest self.",
+    category: "lifestyle",
+    tags: ["calm girl", "aesthetic", "personality"],
+    publishedAt: "2026-05-07",
+    trending: true,
+    questions: [
+      { text: "Your calmest morning includes...", answers: [
+        { text: "A clean space", result: "minimal-muse" },
+        { text: "A slow drink", result: "soft-ritualist" },
+        { text: "A notebook", result: "thoughtful-planner" },
+        { text: "A walk outside", result: "nature-resetter" }
+      ] },
+      { text: "Pick a calm-girl detail.", answers: [
+        { text: "Linen", result: "minimal-muse" },
+        { text: "Ceramic mug", result: "soft-ritualist" },
+        { text: "A tidy list", result: "thoughtful-planner" },
+        { text: "Fresh air", result: "nature-resetter" }
+      ] },
+      { text: "Your calm comes from...", answers: [
+        { text: "Less visual noise", result: "minimal-muse" },
+        { text: "Tiny routines", result: "soft-ritualist" },
+        { text: "Knowing the plan", result: "thoughtful-planner" },
+        { text: "Being grounded in your body", result: "nature-resetter" }
+      ] }
+    ],
+    results: [
+      { slug: "minimal-muse", title: "Minimal Muse", description: "Your calm is clean, edited, and beautifully understated.", shareSummary: "My Calm Girl archetype is Minimal Muse." },
+      { slug: "soft-ritualist", title: "Soft Ritualist", description: "Your calm comes from small comforts that make ordinary life feel intentional.", shareSummary: "My Calm Girl archetype is Soft Ritualist." },
+      { slug: "thoughtful-planner", title: "Thoughtful Planner", description: "Your calm comes from gentle structure, lists, and knowing what matters.", shareSummary: "My Calm Girl archetype is Thoughtful Planner." },
+      { slug: "nature-resetter", title: "Nature Resetter", description: "Your calm returns when you reconnect with air, light, movement, and the outside world.", shareSummary: "My Calm Girl archetype is Nature Resetter." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "are-you-more-logic-or-emotion-driven",
+    title: "Are You More Logic or Emotion Driven?",
+    description: "Find whether your decisions lean more analytical, emotional, or balanced.",
+    category: "personality",
+    tags: ["logic", "emotion", "personality"],
+    publishedAt: "2026-05-06",
+    questions: [
+      { text: "When making a choice, you trust...", answers: [
+        { text: "Facts first", result: "logic-led" },
+        { text: "Feelings first", result: "heart-led" },
+        { text: "Both equally", result: "balanced-led" },
+        { text: "Context and timing", result: "situational-led" }
+      ] },
+      { text: "A good argument needs...", answers: [
+        { text: "Evidence", result: "logic-led" },
+        { text: "Empathy", result: "heart-led" },
+        { text: "Both sides", result: "balanced-led" },
+        { text: "Real-life nuance", result: "situational-led" }
+      ] },
+      { text: "You regret choices when you ignore...", answers: [
+        { text: "The practical facts", result: "logic-led" },
+        { text: "Your gut feeling", result: "heart-led" },
+        { text: "Either side", result: "balanced-led" },
+        { text: "The bigger picture", result: "situational-led" }
+      ] }
+    ],
+    results: [
+      { slug: "logic-led", title: "Logic Led", description: "You feel safest when decisions are clear, reasoned, and supported by facts.", shareSummary: "I'm more Logic Led." },
+      { slug: "heart-led", title: "Heart Led", description: "You are guided by emotional truth, care, and what feels meaningful.", shareSummary: "I'm more Heart Led." },
+      { slug: "balanced-led", title: "Balanced Led", description: "You are strongest when your head and heart both get a seat at the table.", shareSummary: "I'm Balanced Led." },
+      { slug: "situational-led", title: "Situationally Led", description: "You read the room, the timing, and the nuance before deciding.", shareSummary: "I'm Situationally Led." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-vibe-does-your-home-match",
+    title: "What Vibe Does Your Home Match?",
+    description: "Choose a few home details to reveal the overall vibe your space gives off.",
+    category: "home",
+    tags: ["home", "decor", "vibe"],
+    publishedAt: "2026-05-05",
+    trending: true,
+    questions: [
+      { text: "Your home feels best when it is...", answers: [
+        { text: "Soft and restful", result: "cozy-calm" },
+        { text: "Bright and open", result: "fresh-airy" },
+        { text: "Layered and personal", result: "collected-warm" },
+        { text: "Clean and simple", result: "quiet-minimal" }
+      ] },
+      { text: "Pick a home detail.", answers: [
+        { text: "A soft throw", result: "cozy-calm" },
+        { text: "Open curtains", result: "fresh-airy" },
+        { text: "Meaningful art", result: "collected-warm" },
+        { text: "Clear surfaces", result: "quiet-minimal" }
+      ] },
+      { text: "Guests would likely say your space feels...", answers: [
+        { text: "Comforting", result: "cozy-calm" },
+        { text: "Light", result: "fresh-airy" },
+        { text: "Interesting", result: "collected-warm" },
+        { text: "Peaceful", result: "quiet-minimal" }
+      ] }
+    ],
+    results: [
+      { slug: "cozy-calm", title: "Cozy Calm", description: "Your home vibe is soft, restful, and easy to settle into.", shareSummary: "My home matches a Cozy Calm vibe." },
+      { slug: "fresh-airy", title: "Fresh and Airy", description: "Your home vibe is bright, breathable, and quietly uplifting.", shareSummary: "My home matches a Fresh and Airy vibe." },
+      { slug: "collected-warm", title: "Collected Warmth", description: "Your home vibe feels personal, layered, and full of lived-in charm.", shareSummary: "My home matches a Collected Warmth vibe." },
+      { slug: "quiet-minimal", title: "Quiet Minimal", description: "Your home vibe is simple, calm, and free from unnecessary noise.", shareSummary: "My home matches a Quiet Minimal vibe." }
+    ]
+  }),
+  makeQuickQuiz({
+    slug: "what-personality-type-do-people-think-you-are",
+    title: "What Personality Type Do People Think You Are?",
+    description: "Find the personality impression you may give before people know the full story.",
+    category: "personality",
+    tags: ["personality", "first impression", "vibes"],
+    publishedAt: "2026-05-04",
+    trending: true,
+    questions: [
+      { text: "In a new group, you usually...", answers: [
+        { text: "Stay composed", result: "the-calm-one" },
+        { text: "Make people comfortable", result: "the-friendly-one" },
+        { text: "Ask smart questions", result: "the-thoughtful-one" },
+        { text: "Take initiative", result: "the-capable-one" }
+      ] },
+      { text: "Your first impression is probably...", answers: [
+        { text: "Peaceful", result: "the-calm-one" },
+        { text: "Approachable", result: "the-friendly-one" },
+        { text: "Insightful", result: "the-thoughtful-one" },
+        { text: "Put together", result: "the-capable-one" }
+      ] },
+      { text: "People may underestimate your...", answers: [
+        { text: "Depth", result: "the-calm-one" },
+        { text: "Boundaries", result: "the-friendly-one" },
+        { text: "Humor", result: "the-thoughtful-one" },
+        { text: "Sensitivity", result: "the-capable-one" }
+      ] }
+    ],
+    results: [
+      { slug: "the-calm-one", title: "The Calm One", description: "People may see you as composed, steady, and hard to rattle.", shareSummary: "People probably think I'm The Calm One." },
+      { slug: "the-friendly-one", title: "The Friendly One", description: "People may see you as warm, welcoming, and easy to talk to.", shareSummary: "People probably think I'm The Friendly One." },
+      { slug: "the-thoughtful-one", title: "The Thoughtful One", description: "People may see you as observant, careful, and quietly insightful.", shareSummary: "People probably think I'm The Thoughtful One." },
+      { slug: "the-capable-one", title: "The Capable One", description: "People may see you as organized, competent, and naturally in control.", shareSummary: "People probably think I'm The Capable One." }
+    ]
   })
 ];
 
