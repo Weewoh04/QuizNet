@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -85,6 +86,10 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        <Script
+          src="https://pl29684949.effectivecpmnetwork.com/c6/89/70/c689701376b87b071ad0858efaaffae0.js"
+          strategy="afterInteractive"
+        />
         <Analytics />
       </body>
     </html>
