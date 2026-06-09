@@ -55,9 +55,13 @@ export function AdSlot({ variant, className = "" }: AdSlotProps) {
     };
   }, [isNetworkSlot]);
 
+  if (!isNetworkSlot) {
+    return null;
+  }
+
   return (
     <aside className={`ad-slot ad-${variant} ${className}`} aria-label={labels[variant]}>
-      {isNetworkSlot ? <div id={effectiveCpmAd.containerId} /> : <span>Advertisement</span>}
+      <div id={effectiveCpmAd.containerId} />
     </aside>
   );
 }
